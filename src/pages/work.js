@@ -4,7 +4,7 @@ import s from 'styled-components'
 import Nav from '../components/Nav'
 import SEO from '../components/seo'
 
-import ProfJSON from '../json/professional.json'
+import WorkJSON from '../json/work.json'
 
 const Wrapper = s.div`
   margin-top: 4em;
@@ -64,7 +64,7 @@ const Experience = ({ head, img, desc, time }) => (
   </div>
 )
 
-const Professional = () => (
+const Work = () => (
   <>
     <SEO title="Work" />
     <div className="container-fluid h-100">
@@ -72,7 +72,7 @@ const Professional = () => (
         <Nav />
 
         <Wrapper className="col-md-9 body-content">
-          {Object.keys(ProfJSON).map(k => (
+          {Object.keys(WorkJSON).map(k => (
             <>
               <p
                 style={{
@@ -83,7 +83,7 @@ const Professional = () => (
               >
                 {k}
               </p>
-              {ProfJSON[k].map(e => (
+              {WorkJSON[k].map(e => (
                 <Experience {...e} />
               ))}
               <div style={{ margin: '3rem 0' }} />
@@ -95,4 +95,4 @@ const Professional = () => (
   </>
 )
 
-export default Professional
+export default Work
