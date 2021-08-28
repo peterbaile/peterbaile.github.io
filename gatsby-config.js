@@ -1,34 +1,35 @@
 module.exports = {
   siteMetadata: {
     title: 'Peter Baile Chen',
-    description: 'Personal Website for Peter Baile Chen',
-    author: 'Peter Chen',
+    description: 'Personal Website for Peter Baile Chen, a senior studying NETS at the University of Pennsylvania',
+    author: '@peterbaile',
+    keywords: 'peter, peter baile, peter baile chen, chen, baile, upenn, university of pennslyvania, penn, nets, penn labs, labs, 197, cis 197, cis-197, penn basics, basics, web, web developer, developer',
   },
   plugins: [
     'gatsby-plugin-styled-components',
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-catch-links',
-    {
-      resolve: 'gatsby-source-filesystem',
-      options: {
-        name: 'aboutPost',
-        path: `${__dirname}/src/pages/aboutPosts`,
-      },
-    },
-    {
-      resolve: 'gatsby-source-filesystem',
-      options: {
-        name: 'workPosts',
-        path: `${__dirname}/src/pages/projectPosts`,
-      },
-    },
-    {
-      resolve: 'gatsby-source-filesystem',
-      options: {
-        name: 'blogPosts',
-        path: `${__dirname}/src/pages/blogPosts`,
-      },
-    },
+    // {
+    //   resolve: 'gatsby-source-filesystem',
+    //   options: {
+    //     name: 'aboutPost',
+    //     path: `${__dirname}/src/pages/aboutPosts`,
+    //   },
+    // },
+    // {
+    //   resolve: 'gatsby-source-filesystem',
+    //   options: {
+    //     name: 'workPosts',
+    //     path: `${__dirname}/src/pages/projectPosts`,
+    //   },
+    // },
+    // {
+    //   resolve: 'gatsby-source-filesystem',
+    //   options: {
+    //     name: 'blogPosts',
+    //     path: `${__dirname}/src/pages/blogPosts`,
+    //   },
+    // },
     'gatsby-transformer-sharp',
     'gatsby-transformer-remark',
     'gatsby-plugin-sharp',
