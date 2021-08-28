@@ -6,7 +6,7 @@
       "head": "Director of Tech Department, The Daily Pennsylvanian",
       "website": "https://developers.thedp.com/",
       "img": "dp-logo.png",
-      "time": "Jan 2020-Feb 2021",
+      "time": "Jan 2020 - Feb 2021",
       "desc": [
         "Led a team of 4 to build the first iOS & Android mobile app: DP+",
         "Migrated project pages from primitive HTML to modern web frameworks GatsbyJS & NextJS",
@@ -18,7 +18,7 @@
       "head": "Full-stack Web Developer, Penn Labs",
       "website": "https://pennlabs.org/",
       "img": "penn-labs.png",
-      "time": "Feb 2019-Dec 2020",
+      "time": "Feb 2019 - Dec 2020",
       "desc": ["Utilized university authentication, dining and laundry APIs to build Penn Basics"]
     }
   ],

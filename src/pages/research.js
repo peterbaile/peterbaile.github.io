@@ -48,7 +48,7 @@ const Project = ({ head, desc, links }) => (
 
 const Research = () => (
   <>
-    <SEO title="Professional" />
+    <SEO title="Research" />
     <div className="container-fluid h-100">
       <div className="row h-100">
         <Nav />

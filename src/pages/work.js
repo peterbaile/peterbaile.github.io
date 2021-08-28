@@ -66,7 +66,7 @@ const Experience = ({ head, img, desc, time }) => (
 
 const Professional = () => (
   <>
-    <SEO title="Professional" />
+    <SEO title="Work" />
     <div className="container-fluid h-100">
       <div className="row h-100">
         <Nav />
