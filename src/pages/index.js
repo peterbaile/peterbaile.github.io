@@ -16,6 +16,15 @@ const Wrapper = s.div`
   }
 `
 
+const Img = s.img`
+  width: 30%;
+  border-radius: 50%;
+
+  @media screen and (max-width: 768px) {
+    width: 70%;
+  }
+`
+
 const AboutPage = () => (
   <>
     <SEO title="About" />
@@ -25,20 +34,17 @@ const AboutPage = () => (
 
         <Wrapper className="col-md-9 body-content">
           <div className="text-center" style={{ marginBottom: '3em' }}>
-            <img
+            <Img
               src="/images/profile_picture.jpg"
               className="img-fluid"
               alt="profile"
-              height="30%"
-              width="30%"
-              style={{ borderRadius: '50%' }}
             />
           </div>
           <div>
             <p className="text-justify" style={{ marginBottom: '2em' }}>
               Hi! I am Peter, a senior studying&nbsp;
               <a href="https://www.nets.upenn.edu/">
-              Networked &#38; Social Systems Engineering (NETS)
+                Networked &#38; Social Systems Engineering (NETS)
               </a>
               &nbsp;at the&nbsp;
               <a href="https://www.upenn.edu/">University of Pennsylvania</a>.
@@ -49,8 +55,8 @@ const AboutPage = () => (
               <a href="https://www.cis.upenn.edu/~zives/">Prof. Zack Ives</a>,
               building systems for ML. Outside of research, I am the student
               instructor of&nbsp;
-              <a href="https://www.seas.upenn.edu/~cis197/">CIS 197</a>&nbsp;and a
-              teaching assistant for&nbsp;
+              <a href="https://www.seas.upenn.edu/~cis197/">CIS 197</a>&nbsp;and
+              a teaching assistant for&nbsp;
               <a href="https://www.cis.upenn.edu/~cis455/">CIS 455/555</a>.
               <br />
               <br />
