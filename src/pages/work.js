@@ -39,7 +39,22 @@ const Bar = s.text`
   }
 `
 
-const Experience = ({ head, img, desc, time }) => (
+const StyledLink = s.a`
+  color: #000000 !important;
+  text-decoration: none !important;
+`
+
+const ExpName = s.text`
+  transition: 0.3s;
+
+  :hover {
+    color: #B5B4B4;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+`
+
+const Experience = ({ pos, name, website, img, desc, time, links }) => (
   <div className="row" style={{ marginBottom: '1.5rem' }}>
     <div className="col-md-1">
       <img src={`/images/${img}`} className="img-fluid" width="50px" />
@@ -47,7 +62,11 @@ const Experience = ({ head, img, desc, time }) => (
     <div className="col-md-11">
       <HeadP>
         <text style={{ fontSize: '1.2rem', fontWeight: '600' }}>
-          {head} <Bar>&#124;</Bar>
+          {pos},
+          <StyledLink href={website}>
+            <ExpName> {name} </ExpName>
+          </StyledLink>
+          <Bar>&#124;</Bar>
         </text>
         &nbsp;
         <LineBreak />
@@ -58,6 +77,8 @@ const Experience = ({ head, img, desc, time }) => (
           {desc.map(e => (
             <li style={{ fontWeight: '300' }}> {e} </li>
           ))}
+          {links &&
+            Object.keys(links).map(k => <a href={`${links[k]}`}> [ {k} ] </a>)}
         </ul>
       )}
     </div>
