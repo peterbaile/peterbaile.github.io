@@ -12,7 +12,7 @@
         "Transformed project pages from primitive HTML to modern web frameworks GatsbyJS & NextJS",
         "Co-founded the Tech Department which aims to build a better developer environment"
       ],
-      "links": { "DP+": "https://apps.apple.com/tt/app/dp/id1550818171" }
+      "links": { "DP+": "https://apps.apple.com/tt/app/dp/id1550818171", "Covid-19 Project Page": "http://covid.thedp.com/" }
     },
     {
       "pos": "Full-stack Web Developer",
@@ -45,7 +45,7 @@
       "subhead": "",
       "img": "penn-logo.png",
       "time": "Sep 2021 - Present",
-      "desc": []
+      "desc": ["Grade homework, hold weekly office hours"]
     },
     {
       "pos": "TA",
@@ -53,7 +53,10 @@
       "website": "https://nets212.seas.upenn.edu/",
       "img": "penn-logo.png",
       "time": "Sep 2020 - Dec 2020",
-      "desc": ["Graded homework, held weekly office hours"]
+      "desc": [
+        "Mentored student teams in month-long final project to build a simplified Facebook",
+        "Graded homework, held weekly office hours"
+      ]
     },
     {
       "pos": "TA",
@@ -62,7 +65,11 @@
       "subhead": "",
       "img": "penn-logo.png",
       "time": "May 2020 - Aug 2020",
-      "desc": ["Graded homework, held weekly office hours"]
+      "desc": [
+        "Built the first course website using modern web framework GatsbyJS",
+        "Held additional pre-exam review sessions",
+        "Graded homework, held weekly office hours"
+      ]
     }
   ]
 }
