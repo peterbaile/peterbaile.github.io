@@ -25,7 +25,7 @@ const Paper = ({ title, authors, conference, links }) => (
     </p>
     <p style={{ fontSize: '0.9rem', margin: '0' }}> {authors} </p>
     {Object.keys(links).map(k => (
-      <a href={`${links[k]}`}> [ {k} ] </a>
+      <><a href={`${links[k]}`}> [ {k} ] </a> &nbsp;</>
     ))}
   </li>
 )
@@ -41,7 +41,7 @@ const Project = ({ head, desc, links }) => (
       </ul>
     )}
     {Object.keys(links).map(k => (
-      <a href={`${links[k]}`}> [ {k} ] </a>
+      <><a href={`${links[k]}`}> [ {k} ] </a> &nbsp;</>
     ))}
   </div>
 )
