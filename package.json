@@ -56,7 +56,7 @@
     "start": "gatsby develop",
     "serve": "gatsby serve",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\"",
-    "deploy": "gatsby build && gh-pages -d public -b main"
+    "deploy": "gatsby clean && gatsby build && gh-pages -d public -b main"
   },
   "repository": {
     "type": "git",
