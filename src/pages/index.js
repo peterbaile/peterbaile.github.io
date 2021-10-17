@@ -27,7 +27,7 @@ const Img = s.img`
 
 const AboutPage = () => (
   <>
-    <SEO title="About" />
+    <SEO />
     <div className="container-fluid h-100">
       <div className="row h-100">
         <Nav />
