@@ -4,6 +4,7 @@ module.exports = {
     description: 'Personal Website for Peter Baile Chen, a senior studying NETS at the University of Pennsylvania',
     author: '@peterbaile',
     keywords: 'peter, peter baile, peter baile chen, chen, baile, upenn, university of pennslyvania, penn, nets, penn labs, labs, 197, cis 197, cis-197, penn basics, basics, web, web developer, developer',
+    siteUrl: 'https://peterbaile.github.io/',
   },
   plugins: [
     'gatsby-plugin-styled-components',
@@ -33,6 +34,7 @@ module.exports = {
     'gatsby-transformer-sharp',
     'gatsby-transformer-remark',
     'gatsby-plugin-sharp',
+    'gatsby-plugin-sitemap',
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
