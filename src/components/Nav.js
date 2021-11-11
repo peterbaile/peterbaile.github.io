@@ -84,14 +84,14 @@ const MyNavBar = () => (
           >
             <i className="fab fa-linkedin" />
           </FooterLink>
-          <FooterLink href="mailto:cbaile@seas.upenn.edu">
-            <i className="fas fa-envelope" />
+          <FooterLink href="/files/Peter_Baile_Chen_CV.pdf">
+            <i className="fas fa-file-pdf"></i>
           </FooterLink>
           <br />
           <br />
           &copy; 2021 Peter Baile Chen
           <br />
-          Last update: 10/17/2021
+          Last update: 11/10/2021
         </div>
         {/* <div> Copyright 2021 Peter Baile Chen. Last update: 8/28/2021. </div> */}
       </div>
@@ -115,8 +115,8 @@ const MyNavBar = () => (
               <FooterLink href="https://www.linkedin.com/in/peter-chen-ba7847153/">
                 <i className="fab fa-linkedin" />
               </FooterLink>
-              <FooterLink href="mailto:cbaile@seas.upenn.edu">
-                <i className="fas fa-envelope" />
+              <FooterLink href="/files/Peter_Baile_Chen_CV.pdf">
+                <i className="fas fa-file-pdf"></i>
               </FooterLink>
             </Nav.Link>
           </Nav>

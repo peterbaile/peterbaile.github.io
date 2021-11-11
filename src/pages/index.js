@@ -49,8 +49,8 @@ const AboutPage = () => (
               &nbsp;at the&nbsp;
               <a href="https://www.upenn.edu/">University of Pennsylvania</a>.
               Baile (百樂) is my Chinese first name, meaning a hundred
-              happiness. I am interested in the intersection of databases,
-              systems, and machine learning. Currently, I am a member of the
+              of happiness. I am interested in the intersection of databases,
+              distributed systems, and machine learning. Currently, I am a member of the
               PennDB group advised by&nbsp;
               <a href="https://www.cis.upenn.edu/~zives/">Prof. Zack Ives</a>,
               building systems for ML. Outside of research, I am the student
