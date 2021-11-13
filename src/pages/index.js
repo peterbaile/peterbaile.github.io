@@ -52,7 +52,7 @@ const AboutPage = () => (
               happiness. I am interested in the intersection of databases,
               distributed systems, and machine learning. Currently, I am a member of the
               PennDB group advised by&nbsp;
-              <a href="https://www.cis.upenn.edu/~zives/">Prof. Zack Ives</a>,
+              <a href="https://www.cis.upenn.edu/~zives/">Professor Zack Ives</a>,
               building systems for ML. Outside of research, I am the student
               instructor of&nbsp;
               <a href="https://www.seas.upenn.edu/~cis197/">CIS 197</a>&nbsp;and

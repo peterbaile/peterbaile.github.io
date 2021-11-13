@@ -10,7 +10,7 @@
       "desc": [
         "Led a team of 4 to build the first iOS & Android mobile app: DP+",
         "Transformed project pages from primitive HTML to modern web frameworks GatsbyJS & NextJS",
-        "Co-founded the Tech Department which aims to build a better developer environment"
+        "Co-founded the Tech Department which aims to build a better developer culture"
       ],
       "links": { "DP+": "https://apps.apple.com/tt/app/dp/id1550818171", "Covid-19 Project Page": "http://covid.thedp.com/" }
     },
@@ -35,7 +35,6 @@
       "time": "Sep 2020 - Present",
       "desc": [
         "Teach classes of 25 students",
-        "Created lectures on GatsbyJS and NextJS",
         "Best-rated instructor of the course as of Spring 2021"
       ]
     },
@@ -46,7 +45,10 @@
       "subhead": "",
       "img": "penn-logo.png",
       "time": "Sep 2021 - Present",
-      "desc": ["Grade homework, hold weekly office hours"]
+      "desc": [
+        "Mentoring student teams in month-long final project to build a simplified search engine", 
+        "Grade homework, hold weekly office hours"
+      ]
     },
     {
       "pos": "TA",
