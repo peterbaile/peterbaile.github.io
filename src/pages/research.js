@@ -59,14 +59,14 @@ const Research = () => (
         <Nav />
 
         <Wrapper className="col-md-9 body-content">
-          <p style={{ fontSize: '2rem', fontWeight: '800', marginBottom: '0.5rem' }}>publications</p>
+          <p style={{ fontSize: '2rem', fontWeight: '800', marginBottom: '0.5rem' }}>Publications</p>
           <ul>
             {paper.map(e => (
               <Paper {...e} />
             ))}
           </ul>
           <div style={{ margin: '4rem 0' }} />
-          <p style={{ fontSize: '2rem', fontWeight: '800', marginBottom: '1rem' }}>projects</p>
+          <p style={{ fontSize: '2rem', fontWeight: '800', marginBottom: '0.5rem' }}>Projects</p>
           {projects.map(e => (
             <Project {...e} />
           ))}
