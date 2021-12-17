@@ -12,7 +12,10 @@
         "Transformed project pages from primitive HTML to modern web frameworks GatsbyJS & NextJS",
         "Co-founded the Tech Department which aims to build a better developer culture"
       ],
-      "links": { "DP+": "https://apps.apple.com/tt/app/dp/id1550818171", "Covid-19 Project Page": "http://covid.thedp.com/" }
+      "links": {
+        "DP+": "https://apps.apple.com/tt/app/dp/id1550818171",
+        "Covid-19 Project Page": "http://covid.thedp.com/"
+      }
     },
     {
       "pos": "Team Lead & Full-stack Web Developer",

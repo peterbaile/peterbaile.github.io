@@ -21,8 +21,15 @@
   ],
   "projects": [
     {
-      "head": "Incremental Inference",
-      "summary": "This project aims to tackle the prolonged reinferencing time upon retraining of ML models. One of the applications is the incremental maintenance of entity matchings within knowledge graphs.",
+      "head": "Program Analysis",
+      "summary": "This project aims to extend software/ program analysis tools from a single function to a state machine",
+      "desc": [
+        "Indepdent project; Advised by Professor Oleg Sokolsky"
+      ]
+    },
+    {
+      "head": "ReSolution",
+      "summary": "This project aims to tackle the prolonged reinferencing time upon retraining of ML models. One of the applications is the incremental maintenance of entity matching in knowledge graphs and associated query results.",
       "desc": [
         "Independent project; Advised by Professor Zack Ives",
         "Devised the algorithm that uses existing inference results as threshold for subsequent inference results",

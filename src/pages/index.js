@@ -49,12 +49,17 @@ const AboutPage = () => (
               &nbsp;at the&nbsp;
               <a href="https://www.upenn.edu/">University of Pennsylvania</a>.
               Baile (百樂) is my Chinese first name, meaning a hundred
-              happiness. I am interested in the intersection of databases,
+              happiness.
+              <br />
+              <br />
+              I am interested in the intersection of databases,
               distributed systems, and machine learning. Currently, I am a member of the
               PennDB group advised by&nbsp;
               <a href="https://www.cis.upenn.edu/~zives/">Professor Zack Ives</a>,
-              building systems for ML. Outside of research, I am the student
-              instructor of&nbsp;
+              building systems for ML.
+              I also work with <a href="https://www.cis.upenn.edu/~sokolsky/">Professor Oleg Sokolsky</a> from the <a href="https://precise.seas.upenn.edu/">PRECISE Center</a> on software analysis tools.
+              Prior to these, I was a member of the <a href="https://dsl.cis.upenn.edu/">Penn Distributed Systems Lab</a>, working with <a href="https://www.cis.upenn.edu/~sga001/">Professor Sebastian Angel</a> and <a href="https://vincen.tl/">Professor Vincent Liu</a>.
+              Outside of research, I am the student instructor of&nbsp;
               <a href="https://www.seas.upenn.edu/~cis197/">CIS 197</a>&nbsp;and
               a teaching assistant for&nbsp;
               <a href="https://www.cis.upenn.edu/~cis455/">CIS 455/555</a>.

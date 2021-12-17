@@ -85,13 +85,13 @@ const MyNavBar = () => (
             <i className="fab fa-linkedin" />
           </FooterLink>
           <FooterLink href="/files/Peter_Baile_Chen_CV.pdf">
-            <i className="fas fa-file-pdf"></i>
+            <i className="fas fa-file-pdf" />
           </FooterLink>
           <br />
           <br />
           &copy; 2021 Peter Baile Chen
           <br />
-          Last update: 11/14/2021
+          Last update: 12/17/2021
         </div>
         {/* <div> Copyright 2021 Peter Baile Chen. Last update: 8/28/2021. </div> */}
       </div>
@@ -116,7 +116,7 @@ const MyNavBar = () => (
                 <i className="fab fa-linkedin" />
               </FooterLink>
               <FooterLink href="/files/Peter_Baile_Chen_CV.pdf">
-                <i className="fas fa-file-pdf"></i>
+                <i className="fas fa-file-pdf" />
               </FooterLink>
             </Nav.Link>
           </Nav>
