@@ -89,9 +89,9 @@ const MyNavBar = () => (
           </FooterLink>
           <br />
           <br />
-          &copy; 2021 Peter Baile Chen
+          &copy; 2022 Peter Baile Chen
           <br />
-          Last update: 12/17/2021
+          Last update: 01/06/2022
         </div>
         {/* <div> Copyright 2021 Peter Baile Chen. Last update: 8/28/2021. </div> */}
       </div>
