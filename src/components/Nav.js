@@ -91,7 +91,7 @@ const MyNavBar = () => (
           <br />
           &copy; 2022 Peter Baile Chen
           <br />
-          Last update: 01/06/2022
+          Last update: 03/21/2022
         </div>
         {/* <div> Copyright 2021 Peter Baile Chen. Last update: 8/28/2021. </div> */}
       </div>
