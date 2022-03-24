@@ -48,8 +48,8 @@ const AboutPage = () => (
               </a>
               &nbsp;at the&nbsp;
               <a href="https://www.upenn.edu/">University of Pennsylvania</a>.
-              {/* I will be joining <a href="http://dsg.csail.mit.edu/">MIT DSG group</a> starting Fall 2022 as a PhD student,
-              advised by <a href="https://www.csail.mit.edu/person/michael-cafarella">Professor Mike Cafarella</a> and <a href="https://www.csail.mit.edu/person/michael-stonebraker">Professor Mike Stonebraker</a>. */}
+              I will be joining <a href="http://dsg.csail.mit.edu/">MIT DSG group</a> starting Fall 2022 as a PhD student,
+              co-advised by <a href="https://www.csail.mit.edu/person/michael-cafarella">Professor Mike Cafarella</a> and <a href="https://www.csail.mit.edu/person/michael-stonebraker">Professor Mike Stonebraker</a>.
               Baile (百樂) is my Chinese first name, meaning a hundred
               happiness.
               <br />
