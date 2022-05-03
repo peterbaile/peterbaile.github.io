@@ -21,7 +21,7 @@ const { paper, projects } = ResearchJSON
 const Paper = ({ title, authors, conference, links }) => (
   <li style={{ margin: '0.5rem 0' }}>
     <p style={{ fontSize: '1.2rem', margin: '0'}}>
-      <em> {title} </em> | {conference}
+      <em> {title} </em> {conference && <>| {conference}</>}
     </p>
     <p style={{ fontSize: '0.9rem', margin: '0' }}> {authors} </p>
     {Object.keys(links).map(k => (

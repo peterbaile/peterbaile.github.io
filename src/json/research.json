@@ -1,11 +1,17 @@
 {
   "paper": [
     {
+      "title": "ReSolution: incrementally maintaining knowledge graphs",
+      "authors": "Peter Baile Chen, Zachary Ives",
+      "links": {
+        "Paper": "/files/thesis_report.pdf"
+      }
+    },
+    {
       "title": "Searching Data Lakes for Nested and Joined Data",
       "authors": "Yi Zhang, Peter Baile Chen, Zachary Ives",
-      "conference": "submitted to SIGMOD 2022",
+      "conference": "under submission",
       "links": {
-        "Submitted Paper": "/files/Juneau-SIGMOD22.pdf",
         "Code": "https://github.com/juneau-project/juneau"
       }
     },
