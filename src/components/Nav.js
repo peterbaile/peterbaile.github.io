@@ -84,7 +84,7 @@ const MyNavBar = () => (
           >
             <i className="fab fa-linkedin" />
           </FooterLink>
-          <FooterLink href="/files/Peter_Baile_Chen_CV.pdf">
+          <FooterLink href="/files/Peter_Baile_Chen_CV.pdf" target="_blank">
             <i className="fas fa-file-pdf" />
           </FooterLink>
           <br />
@@ -108,17 +108,17 @@ const MyNavBar = () => (
             <Nav.Link href="/">About</Nav.Link>
             <Nav.Link href="/research">Research</Nav.Link>
             <Nav.Link href="/work">Work</Nav.Link>
-            <Nav.Link>
-              <FooterLink href="https://github.com/peterbaile">
+            <div style={{ marginTop: '0.3em' }}>
+              <FooterLink href="https://github.com/peterbaile" target="_blank">
                 <i className="fab fa-github" />
               </FooterLink>
-              <FooterLink href="https://www.linkedin.com/in/peter-chen-ba7847153/">
+              <FooterLink href="https://www.linkedin.com/in/peter-chen-ba7847153/" target="_blank">
                 <i className="fab fa-linkedin" />
               </FooterLink>
-              <FooterLink href="/files/Peter_Baile_Chen_CV.pdf">
+              <FooterLink href="/files/Peter_Baile_Chen_CV.pdf" target="_blank">
                 <i className="fas fa-file-pdf" />
               </FooterLink>
-            </Nav.Link>
+            </div>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
