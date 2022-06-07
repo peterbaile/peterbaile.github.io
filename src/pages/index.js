@@ -42,28 +42,21 @@ const AboutPage = () => (
           </div>
           <div>
             <p className="text-justify" style={{ marginBottom: '2em' }}>
-              Hi! I am Peter, a senior studying&nbsp;
-              <a href="https://www.nets.upenn.edu/">
-                Networked &#38; Social Systems Engineering (NETS)
-              </a>
-              &nbsp;at the&nbsp;
-              <a href="https://www.upenn.edu/">University of Pennsylvania</a>.
-              I will be joining <a href="http://dsg.csail.mit.edu/">MIT DSG group</a> starting Fall 2022 as a PhD student,
-              co-advised by <a href="https://www.csail.mit.edu/person/michael-cafarella">Professor Mike Cafarella</a> and <a href="https://www.csail.mit.edu/person/michael-stonebraker">Professor Mike Stonebraker</a>.
-              Baile (百樂) is my Chinese first name, meaning a hundred
-              happiness.
+              Hi! I am Peter, an incoming PhD student in <a href="http://dsg.csail.mit.edu/">MIT DSG group</a>, co-advised by <a href="https://www.csail.mit.edu/person/michael-cafarella">Professor Mike Cafarella</a> and <a href="https://www.csail.mit.edu/person/michael-stonebraker">Professor Mike Stonebraker</a>. I graduated from&nbsp;
+              <a href="https://www.upenn.edu/">University of Pennsylvania</a> with a BSE degree in&nbsp;
+              <a href="https://www.nets.upenn.edu/">Networked &#38; Social Systems Engineering (NETS)</a>.
+              Baile (百樂) is my Chinese first name, meaning a hundred happiness.
               <br />
               <br />
               I am interested in the intersection of databases,
               distributed systems, and machine learning. Currently, I am a member of <a href="https://db.cis.upenn.edu/">Penn Database group</a> advised by&nbsp;
               <a href="https://www.cis.upenn.edu/~zives/">Professor Zack Ives</a>,
               building systems for ML.
-              I also work with <a href="https://www.cis.upenn.edu/~sokolsky/">Professor Oleg Sokolsky</a> from the <a href="https://precise.seas.upenn.edu/">PRECISE Center</a> on software analysis tools.
-              Prior to these, I was a member of the <a href="https://dsl.cis.upenn.edu/">Penn Distributed Systems Lab</a>, working with <a href="https://www.cis.upenn.edu/~sga001/">Professor Sebastian Angel</a> and <a href="https://vincen.tl/">Professor Vincent Liu</a>.
-              Outside of research, I am the student instructor of&nbsp;
+              Prior to this, I worked with <a href="https://www.cis.upenn.edu/~sokolsky/">Professor Oleg Sokolsky</a> from the <a href="https://precise.seas.upenn.edu/">PRECISE Center</a> on software analysis tools. I was also a member of the <a href="https://dsl.cis.upenn.edu/">Penn Distributed Systems Lab</a>, working with <a href="https://www.cis.upenn.edu/~sga001/">Professor Sebastian Angel</a> and <a href="https://vincen.tl/">Professor Vincent Liu</a>.
+              {/* Outside of research, I am the student instructor of&nbsp;
               <a href="https://www.seas.upenn.edu/~cis197/">CIS 197</a>&nbsp;and
               a teaching assistant for&nbsp;
-              <a href="https://www.cis.upenn.edu/~cis455/">CIS 455/555</a>.
+              <a href="https://www.cis.upenn.edu/~cis455/">CIS 455/555</a>. */}
               <br />
               <br />
               Things I do when I am free &#61;
