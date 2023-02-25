@@ -17,7 +17,7 @@ const Wrapper = s.div`
 `
 
 const Img = s.img`
-  width: 30%;
+  width: 20%;
   border-radius: 50%;
 
   @media screen and (max-width: 768px) {
@@ -35,14 +35,14 @@ const AboutPage = () => (
         <Wrapper className="col-md-9 body-content">
           <div className="text-center" style={{ marginBottom: '3em' }}>
             <Img
-              src="/images/profile_picture.jpg"
+              src="/images/headshot.jpg"
               className="img-fluid"
               alt="profile"
             />
           </div>
           <div>
             <p className="text-justify" style={{ marginBottom: '2em' }}>
-              Hi! I am Peter, a PhD student in <a href="http://dsg.csail.mit.edu/">MIT DSG group</a>, co-advised by <a href="https://www.csail.mit.edu/person/michael-cafarella">Mike Cafarella</a> and <a href="https://www.csail.mit.edu/person/michael-stonebraker">Mike Stonebraker</a>. I graduated Summa Cum Laude from&nbsp;
+              Hi! I am Peter, a first-year PhD student in <a href="http://dsg.csail.mit.edu/">MIT DSG group</a>, co-advised by <a href="https://www.csail.mit.edu/person/michael-cafarella">Mike Cafarella</a> and <a href="https://www.csail.mit.edu/person/michael-stonebraker">Mike Stonebraker</a>. I graduated Summa Cum Laude from&nbsp;
               <a href="https://www.upenn.edu/">University of Pennsylvania</a> with a BSE degree in&nbsp;
               <a href="https://www.nets.upenn.edu/">Networked &#38; Social Systems Engineering (NETS)</a>.
               Baile (百樂) is my Chinese first name, meaning a hundred happiness.
