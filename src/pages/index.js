@@ -42,7 +42,7 @@ const AboutPage = () => (
           </div>
           <div>
             <p className="text-justify" style={{ marginBottom: '2em' }}>
-              Hi! I am Peter, a first-year PhD student in <a href="http://dsg.csail.mit.edu/">MIT DSG group</a>, co-advised by <a href="https://www.csail.mit.edu/person/michael-cafarella">Mike Cafarella</a> and <a href="https://www.csail.mit.edu/person/michael-stonebraker">Mike Stonebraker</a>. I graduated Summa Cum Laude from&nbsp;
+              Hi! I am Peter, a second-year PhD student in <a href="http://dsg.csail.mit.edu/">MIT DSG group</a>, co-advised by <a href="https://www.csail.mit.edu/person/michael-cafarella">Mike Cafarella</a> and <a href="https://www.csail.mit.edu/person/michael-stonebraker">Mike Stonebraker</a>. I graduated Summa Cum Laude from&nbsp;
               <a href="https://www.upenn.edu/">University of Pennsylvania</a> with a BSE degree in&nbsp;
               <a href="https://www.nets.upenn.edu/">Networked &#38; Social Systems Engineering (NETS)</a>.
               Baile (百樂) is my Chinese first name, meaning a hundred happiness.

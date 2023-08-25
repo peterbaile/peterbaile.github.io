@@ -1,21 +1,6 @@
 {
   "paper": [
     {
-      "title": "ReSolution: incrementally maintaining knowledge graphs",
-      "authors": "Peter Baile Chen, Zachary Ives",
-      "links": {
-        "Report": "/files/thesis_report.pdf"
-      }
-    },
-    {
-      "title": "Searching Data Lakes for Nested and Joined Data",
-      "authors": "Yi Zhang, Peter Baile Chen, Zachary Ives",
-      "conference": "under submission",
-      "links": {
-        "Code": "https://github.com/juneau-project/juneau"
-      }
-    },
-    {
       "title": "Fault-tolerant and Transactional Stateful Serverless Workflows",
       "authors": "Haoran Zhang, Adney Cardoza, Peter Baile Chen, Sebastian Angel, Vincent Liu",
       "conference": "OSDI 2020",
