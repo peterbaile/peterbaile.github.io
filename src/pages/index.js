@@ -48,8 +48,8 @@ const AboutPage = () => (
               Baile (百樂) is my Chinese first name, meaning a hundred happiness.
               <br />
               <br />
-              I am interested in the intersection of databases,
-              distributed systems, and machine learning. Previously, I am a member of <a href="https://db.cis.upenn.edu/">Penn Database group</a> advised by&nbsp;
+              I am interested in Machine Learning systems, Natural Language Processing, and data management.
+              Previously, I am a member of <a href="https://db.cis.upenn.edu/">Penn Database group</a> advised by&nbsp;
               <a href="https://www.cis.upenn.edu/~zives/">Professor Zack Ives</a>,
               building systems for ML.
               Prior to this, I worked with <a href="https://www.cis.upenn.edu/~sokolsky/">Professor Oleg Sokolsky</a> from the <a href="https://precise.seas.upenn.edu/">PRECISE Center</a> on software analysis tools. I was also a member of the <a href="https://dsl.cis.upenn.edu/">Penn Distributed Systems Lab</a>, working with <a href="https://www.cis.upenn.edu/~sga001/">Professor Sebastian Angel</a> and <a href="https://vincen.tl/">Professor Vincent Liu</a>.
@@ -60,7 +60,7 @@ const AboutPage = () => (
               <br />
               <br />
               Things I do when I am free &#61;
-              🥊&nbsp;&nbsp;&#43;&nbsp;&nbsp;🏃&nbsp;&nbsp;&#43;&nbsp;&nbsp;🎮
+              🏃‍♂️&nbsp;&nbsp;&#43;&nbsp;&nbsp;🏊&nbsp;&nbsp;&#43;&nbsp;&nbsp;🚴‍♂️
             </p>
             {/* <a
                 className="btn btn-outline-info"

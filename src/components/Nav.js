@@ -75,23 +75,20 @@ const MyNavBar = () => (
             fontSize: '0.7em',
           }}
         >
+          <FooterLink href="mailto:peterbc@mit.edu" target="_blank">
+            <i className="fas fa-envelope" />
+          </FooterLink>
           <FooterLink href="https://github.com/peterbaile" target="_blank">
             <i className="fab fa-github" />
           </FooterLink>
-          <FooterLink
-            href="https://www.linkedin.com/in/peter-bc/"
-            target="_blank"
-          >
-            <i className="fab fa-linkedin" />
-          </FooterLink>
-          <FooterLink href="/files/Peter_Baile_Chen_CV.pdf" target="_blank">
-            <i className="fas fa-file-pdf" />
+          <FooterLink href="https://scholar.google.com/citations?user=hVnM4FgAAAAJ&hl=en&oi=ao" target="_blank">
+            <i className="fas fa-graduation-cap" />
           </FooterLink>
           <br />
           <br />
           &copy; 22-23 Peter Baile Chen
           <br />
-          Last update: 8/25/2023
+          Last update: 9/13/2023
         </div>
         {/* <div> Copyright 2021 Peter Baile Chen. Last update: 8/28/2021. </div> */}
       </div>
@@ -109,14 +106,14 @@ const MyNavBar = () => (
             <Nav.Link href="/research">Research</Nav.Link>
             <Nav.Link href="/work">Work</Nav.Link>
             <div style={{ marginTop: '0.3em' }}>
+              <FooterLink href="mailto:peterbc@mit.edu" target="_blank">
+                <i className="fas fa-envelope" />
+              </FooterLink>
               <FooterLink href="https://github.com/peterbaile" target="_blank">
                 <i className="fab fa-github" />
               </FooterLink>
-              <FooterLink href="https://www.linkedin.com/in/peter-chen-ba7847153/" target="_blank">
-                <i className="fab fa-linkedin" />
-              </FooterLink>
-              <FooterLink href="/files/Peter_Baile_Chen_CV.pdf" target="_blank">
-                <i className="fas fa-file-pdf" />
+              <FooterLink href="https://scholar.google.com/citations?user=hVnM4FgAAAAJ&hl=en&oi=ao" target="_blank">
+                <i className="fas fa-graduation-cap" />
               </FooterLink>
             </div>
           </Nav>

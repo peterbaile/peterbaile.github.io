@@ -78,7 +78,7 @@ const Experience = ({ pos, name, website, img, desc, time, links }) => (
             <li style={{ fontWeight: '300' }}> {e} </li>
           ))}
           {links &&
-            Object.keys(links).map(k => <><a href={`${links[k]}`}> [ {k} ] </a> &nbsp;</>)}
+            Object.keys(links).map(k => <><a href={`${links[k]}`}>[ {k} ]</a> &nbsp;</>)}
         </ul>
       )}
     </div>
