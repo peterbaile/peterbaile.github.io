@@ -48,10 +48,10 @@ const AboutPage = () => (
               Baile (百樂) is my Chinese first name, meaning a hundred happiness.
               <br />
               <br />
-              I am interested in Machine Learning systems, Natural Language Processing, and data management.
+              I am interested in improving performances of LLMs under the context of information retrieval and complex reasoning. I also work on machine Learning systems and data management.
               Previously, I am a member of <a href="https://db.cis.upenn.edu/">Penn Database group</a> advised by&nbsp;
               <a href="https://www.cis.upenn.edu/~zives/">Professor Zack Ives</a>,
-              building systems for ML.
+              building ML systems.
               Prior to this, I worked with <a href="https://www.cis.upenn.edu/~sokolsky/">Professor Oleg Sokolsky</a> from the <a href="https://precise.seas.upenn.edu/">PRECISE Center</a> on software analysis tools. I was also a member of the <a href="https://dsl.cis.upenn.edu/">Penn Distributed Systems Lab</a>, working with <a href="https://www.cis.upenn.edu/~sga001/">Professor Sebastian Angel</a> and <a href="https://vincen.tl/">Professor Vincent Liu</a>.
               {/* Outside of research, I am the student instructor of&nbsp;
               <a href="https://www.seas.upenn.edu/~cis197/">CIS 197</a>&nbsp;and

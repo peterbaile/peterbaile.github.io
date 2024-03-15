@@ -23,7 +23,7 @@ const Paper = ({ title, authors, conference, links }) => (
     <p style={{ fontSize: '1.2rem', margin: '0'}}>
       <em> {title} </em> {conference && <>| {conference}</>}
     </p>
-    <p style={{ fontSize: '0.9rem', margin: '0' }}> {authors} </p>
+    <p style={{ fontSize: '0.9rem', margin: '0' }} dangerouslySetInnerHTML={{__html: authors}} />
     {Object.keys(links).map(k => (
       <><a href={`${links[k]}`}>[ {k} ]</a> &nbsp;</>
     ))}

@@ -1,8 +1,15 @@
 {
   "paper": [
     {
+      "title": "Is Table Retrieval a Solved Problem? Join-Aware Multi-Table Retrieval",
+      "authors": "<b>Peter Baile Chen</b>, Yi Zhang, Dan Roth",
+      "links": {
+        "Pre-print": "https://openreview.net/pdf?id=OaXH8cVGDQ"
+      }
+    },
+    {
       "title": "Fault-tolerant and Transactional Stateful Serverless Workflows",
-      "authors": "Haoran Zhang, Adney Cardoza, Peter Baile Chen, Sebastian Angel, Vincent Liu",
+      "authors": "Haoran Zhang, Adney Cardoza, <b>Peter Baile Chen</b>, Sebastian Angel, Vincent Liu",
       "conference": "OSDI 2020",
       "links": {
         "Paper": "https://www.usenix.org/system/files/osdi20-zhang_haoran.pdf",
