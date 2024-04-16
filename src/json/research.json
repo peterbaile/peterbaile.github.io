@@ -4,8 +4,9 @@
       "title": "Is Table Retrieval a Solved Problem? Join-Aware Multi-Table Retrieval",
       "authors": "<b>Peter Baile Chen</b>, Yi Zhang, Dan Roth",
       "links": {
-        "Pre-print": "https://openreview.net/pdf?id=OaXH8cVGDQ"
-      }
+        "Paper": "https://arxiv.org/abs/2404.09889"
+      },
+      "bibtex": "@misc{chen2024table,\ntitle={Is Table Retrieval a Solved Problem? Join-Aware Multi-Table Retrieval},\nauthor={Peter Baile Chen and Yi Zhang and Dan Roth},\nyear={2024},\neprint={2404.09889},\narchivePrefix={arXiv},\nprimaryClass={cs.IR}\n}"
     },
     {
       "title": "Optimization in Universal Health Coverage Design in South Africa Considering Both Health Outcomes and Health-Induced Poverty Outcomes",
@@ -22,7 +23,8 @@
       "links": {
         "Paper": "https://www.usenix.org/system/files/osdi20-zhang_haoran.pdf",
         "Code": "https://github.com/eniac/Beldi"
-      }
+      },
+      "bibtex": "@inproceedings {258880,\nauthor = {Haoran Zhang and Adney Cardoza and Peter Baile Chen and Sebastian Angel and Vincent Liu},\ntitle = {Fault-tolerant and transactional stateful serverless workflows},\nbooktitle = {14th USENIX Symposium on Operating Systems Design and Implementation (OSDI 20)},\nyear = {2020},\nisbn = {978-1-939133-19-9},\npages = {1187--1204},\nurl = {https://www.usenix.org/conference/osdi20/presentation/zhang-haoran},\npublisher = {USENIX Association},\nmonth = nov\n}"
     }
   ],
   "projects": [

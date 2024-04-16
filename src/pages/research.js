@@ -3,6 +3,7 @@ import s from 'styled-components'
 
 import Nav from '../components/Nav'
 import SEO from '../components/seo'
+import Bibtex from '../components/Bibtex'
 
 import ResearchJSON from '../json/research.json'
 
@@ -18,15 +19,16 @@ const Wrapper = s.div`
 
 const { paper, projects } = ResearchJSON
 
-const Paper = ({ title, authors, conference, links }) => (
+const Paper = ({ title, authors, conference, links, bibtex }) => (
   <li style={{ margin: '0.5rem 0' }}>
     <p style={{ fontSize: '1.2rem', margin: '0'}}>
       <em> {title} </em> {conference && <>| {conference}</>}
     </p>
     <p style={{ fontSize: '0.9rem', margin: '0' }} dangerouslySetInnerHTML={{__html: authors}} />
-    {Object.keys(links).map(k => (
-      <><a href={`${links[k]}`}>[ {k} ]</a> &nbsp;</>
+    {Object.keys(links).map((k, idx) => (
+      <><a href={`${links[k]}`}>{k}</a> {idx < Object.keys(links).length - 1 ? '|' : ''} </>
     ))}
+    {bibtex && <Bibtex withToggle>{bibtex}</Bibtex>}
   </li>
 )
 
@@ -65,11 +67,11 @@ const Research = () => (
               <Paper {...e} />
             ))}
           </ul>
-          <div style={{ margin: '4rem 0' }} />
+          {/* <div style={{ margin: '4rem 0' }} />
           <p style={{ fontSize: '2rem', fontWeight: '800', marginBottom: '0.5rem' }}>Projects</p>
           {projects.map(e => (
             <Project {...e} />
-          ))}
+          ))} */}
         </Wrapper>
       </div>
     </div>

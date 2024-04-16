@@ -41,15 +41,15 @@ const AboutPage = () => (
             />
           </div>
           <div>
-            <p className="text-justify" style={{ marginBottom: '2em' }}>
-              Hi! I am Peter, a second-year PhD student in <a href="http://dsg.csail.mit.edu/">MIT DSG group</a>, co-advised by <a href="https://www.csail.mit.edu/person/michael-cafarella">Mike Cafarella</a> and <a href="https://www.csail.mit.edu/person/michael-stonebraker">Mike Stonebraker</a>. I graduated Summa Cum Laude from&nbsp;
-              <a href="https://www.upenn.edu/">University of Pennsylvania</a> with a BSE degree in&nbsp;
+            <p style={{ marginBottom: '2em' }}>
+              Hi! I am Peter, a second-year PhD student at <a href="https://www.csail.mit.edu/">MIT CSAIL</a>, co-advised by <a href="https://www.csail.mit.edu/person/michael-cafarella">Mike Cafarella</a> and <a href="https://www.csail.mit.edu/person/michael-stonebraker">Mike Stonebraker</a>. I graduated Summa Cum Laude from&nbsp;
+              the <a href="https://www.upenn.edu/">University of Pennsylvania</a> with a BSE degree in&nbsp;
               <a href="https://www.nets.upenn.edu/">Networked &#38; Social Systems Engineering (NETS)</a>.
               Baile (百樂) is my Chinese first name, meaning a hundred happiness.
               <br />
               <br />
-              I am interested in improving performances of LLMs under the context of information retrieval and complex reasoning. I also work on machine Learning systems and data management.
-              Previously, I am a member of <a href="https://db.cis.upenn.edu/">Penn Database group</a> advised by&nbsp;
+              I am interested in improving the performance of LLMs in the context of information retrieval and complex reasoning. I also work on Machine Learning systems and data management.
+              Previously, I was a member of the <a href="https://db.cis.upenn.edu/">Penn Database group</a> advised by&nbsp;
               <a href="https://www.cis.upenn.edu/~zives/">Professor Zack Ives</a>,
               building ML systems.
               Prior to this, I worked with <a href="https://www.cis.upenn.edu/~sokolsky/">Professor Oleg Sokolsky</a> from the <a href="https://precise.seas.upenn.edu/">PRECISE Center</a> on software analysis tools. I was also a member of the <a href="https://dsl.cis.upenn.edu/">Penn Distributed Systems Lab</a>, working with <a href="https://www.cis.upenn.edu/~sga001/">Professor Sebastian Angel</a> and <a href="https://vincen.tl/">Professor Vincent Liu</a>.
