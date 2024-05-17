@@ -3,6 +3,7 @@
     {
       "title": "Is Table Retrieval a Solved Problem? Join-Aware Multi-Table Retrieval",
       "authors": "<b>Peter Baile Chen</b>, Yi Zhang, Dan Roth",
+      "conference": "ACL 2024",
       "links": {
         "Paper": "https://arxiv.org/abs/2404.09889"
       },
@@ -13,7 +14,8 @@
       "conference": "ISPOR 2024",
       "authors": "<b>Peter Baile Chen</b>, Yizhi Liang",
       "links": {
-        "Abstract": "https://www.ispor.org/heor-resources/presentations-database/presentation/intl2024-3900/139849"
+        "Abstract": "https://www.ispor.org/heor-resources/presentations-database/presentation/intl2024-3900/139849",
+        "Poster": "https://www.ispor.org/docs/default-source/intl2024/ispor24chenhpr144poster139849-pdf.pdf?sfvrsn=92ceedb8_0"
       }
     },
     {
