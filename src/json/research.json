@@ -1,7 +1,7 @@
 {
   "paper": [
     {
-      "title": "Is Table Retrieval a Solved Problem? Join-Aware Multi-Table Retrieval",
+      "title": "Is Table Retrieval a Solved Problem? Exploring Join-Aware Multi-Table Retrieval",
       "authors": "<b>Peter Baile Chen</b>, Yi Zhang, Dan Roth",
       "conference": "ACL 2024",
       "links": {
