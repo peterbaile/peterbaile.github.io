@@ -1,13 +1,21 @@
 {
   "paper": [
     {
+      "title": "MDCR: A Dataset for Multi-Document Conditional Reasoning",
+      "authors": "<b>Peter Baile Chen</b>, Yi Zhang, Chunwei Liu, Sejal Gupta, Yoon Kim, Michael Cafarella",
+      "links": {
+        "Paper": "https://arxiv.org/abs/2406.11784"
+      },
+      "bibtex": "@article{chen2024mdcr,\ntitle={MDCR: A Dataset for Multi-Document Conditional Reasoning},\nauthor={Chen, Peter Baile and Zhang, Yi and Liu, Chunwei and Gupta, Sejal and Kim, Yoon and Cafarella, Michael},\njournal={arXiv preprint arXiv:2406.11784},\nyear={2024}\n}"
+    },
+    {
       "title": "Is Table Retrieval a Solved Problem? Exploring Join-Aware Multi-Table Retrieval",
       "authors": "<b>Peter Baile Chen</b>, Yi Zhang, Dan Roth",
       "conference": "ACL 2024",
       "links": {
         "Paper": "https://arxiv.org/abs/2404.09889"
       },
-      "bibtex": "@misc{chen2024table,\ntitle={Is Table Retrieval a Solved Problem? Join-Aware Multi-Table Retrieval},\nauthor={Peter Baile Chen and Yi Zhang and Dan Roth},\nyear={2024},\neprint={2404.09889},\narchivePrefix={arXiv},\nprimaryClass={cs.IR}\n}"
+      "bibtex": "@article{chen2024table,\ntitle={Is Table Retrieval a Solved Problem? Join-Aware Multi-Table Retrieval},\nauthor={Chen, Peter Baile and Zhang, Yi and Roth, Dan},\njournal={arXiv preprint arXiv:2404.09889},\nyear={2024}\n}"
     },
     {
       "title": "Optimization in Universal Health Coverage Design in South Africa Considering Both Health Outcomes and Health-Induced Poverty Outcomes",
