@@ -1,6 +1,14 @@
 {
   "paper": [
     {
+      "title": "Searching Data Lakes for Nested and Joined Data",
+      "conference": "VLDB 2024",
+      "authors": "Yi Zhang, <b>Peter Baile Chen</b>, Zack Ives",
+      "links": {
+        "Paper": "https://dl.acm.org/doi/10.14778/3681954.3682005"
+      }
+    },
+    {
       "title": "MDCR: A Dataset for Multi-Document Conditional Reasoning",
       "authors": "<b>Peter Baile Chen</b>, Yi Zhang, Chunwei Liu, Sejal Gupta, Yoon Kim, Michael Cafarella",
       "links": {

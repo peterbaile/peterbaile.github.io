@@ -25,7 +25,7 @@ const Paper = ({ title, authors, conference, links, bibtex }) => (
       <em> {title} </em> {conference && <>| {conference}</>}
     </p>
     <p style={{ fontSize: '0.9rem', margin: '0' }} dangerouslySetInnerHTML={{__html: authors}} />
-    {Object.keys(links).map((k, idx) => (
+    {links && Object.keys(links).map((k, idx) => (
       <><a href={`${links[k]}`}>{k}</a> {idx < Object.keys(links).length - 1 ? '|' : ''} </>
     ))}
     {bibtex && <Bibtex withToggle>{bibtex}</Bibtex>}

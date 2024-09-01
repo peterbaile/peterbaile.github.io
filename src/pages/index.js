@@ -42,8 +42,8 @@ const AboutPage = () => (
           </div>
           <div>
             <p style={{ marginBottom: '2em' }}>
-              Hi! I am Peter (陳百樂), a second-year PhD student at <a href="https://www.csail.mit.edu/">MIT CSAIL</a>, co-advised by <a href="https://www.csail.mit.edu/person/michael-cafarella">Mike Cafarella</a> and <a href="https://www.csail.mit.edu/person/michael-stonebraker">Mike Stonebraker</a>. I graduated from
-              the <a href="https://www.upenn.edu/">University of Pennsylvania</a> with a BSE degree. I am supported by <a href="https://scholars.croucher.org.hk/scholars/baile-chen">the Croucher scholarship</a>.
+              Hi! I am Peter (陳百樂), a third-year PhD student at <a href="https://www.csail.mit.edu/">MIT CSAIL</a>, co-advised by <a href="https://www.csail.mit.edu/person/michael-cafarella">Mike Cafarella</a> and <a href="https://www.csail.mit.edu/person/michael-stonebraker">Mike Stonebraker</a>. I graduated from
+              the <a href="https://www.upenn.edu/">University of Pennsylvania</a> with a BSE degree. At UPenn, I had the chance to work with <a href="https://www.cis.upenn.edu/~zives/">Zack Ives</a>, <a href="https://www.cis.upenn.edu/~sga001/">Sebastian Angel</a>, and <a href="https://vincen.tl/">Vincent Liu</a>. I am supported by <a href="https://scholars.croucher.org.hk/scholars/baile-chen">the Croucher scholarship</a>.
               <br />
               <br />
               I am interested in improving the performance of LLMs in the context of information retrieval and complex reasoning. I also work on Machine Learning systems and data management.
@@ -51,7 +51,8 @@ const AboutPage = () => (
 
             <h4>News</h4>
             <ul>
-              <li>(May 2024) Our paper on <a href="https://arxiv.org/abs/2404.09889">join-aware multi-table retrieval</a> was accepted to ACL 2024.</li>
+              <li>(August 2024) JAR was awarded the outstanding paper at <a href="https://knowledgeable-lm.github.io/">Towards Knowledgeable Language Models @ ACL 2024</a>.</li>
+              <li>(May 2024) Our paper on <a href="https://arxiv.org/abs/2404.09889">join-aware multi-table retrieval (JAR)</a> was accepted to ACL 2024.</li>
             </ul>
             {/* <p style={{ marginBottom: '2em' }}>
               Hi! I am Peter, a second-year PhD student at <a href="https://www.csail.mit.edu/">MIT CSAIL</a>, co-advised by <a href="https://www.csail.mit.edu/person/michael-cafarella">Mike Cafarella</a> and <a href="https://www.csail.mit.edu/person/michael-stonebraker">Mike Stonebraker</a>. I graduated Summa Cum Laude from&nbsp;
