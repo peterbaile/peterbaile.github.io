@@ -1,6 +1,14 @@
 {
   "paper": [
     {
+      "title": "BEAVER: An Enterprise Benchmark for Text-to-SQL",
+      "authors": "<b>Peter Baile Chen</b>, Fabian Wenz, Yi Zhang, Moe Kayali, Nesime Tatbul, Michael Cafarella, Çağatay Demiralp, Michael Stonebraker",
+      "links": {
+        "Paper": "https://arxiv.org/abs/2409.02038"
+      },
+      "bibtex": "@article{chen2024beaver,\ntitle={BEAVER: An Enterprise Benchmark for Text-to-SQL},\nauthor={Chen, Peter Baile and Wenz, Fabian and Zhang, Yi and Kayali, Moe and Tatbul, Nesime and Cafarella, Michael and Demiralp, Çağatay and Stonebraker, Michael},\njournal={arXiv preprint arXiv:2409.02038},\nyear={2024}\n}"
+    },
+    {
       "title": "Searching Data Lakes for Nested and Joined Data",
       "conference": "VLDB 2024",
       "authors": "Yi Zhang, <b>Peter Baile Chen</b>, Zack Ives",
