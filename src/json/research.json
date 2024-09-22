@@ -20,6 +20,7 @@
     {
       "title": "MDCR: A Dataset for Multi-Document Conditional Reasoning",
       "authors": "<b>Peter Baile Chen</b>, Yi Zhang, Chunwei Liu, Sejal Gupta, Yoon Kim, Michael Cafarella",
+      "conference": "EMNLP 2024 (Findings)",
       "links": {
         "Paper": "https://arxiv.org/abs/2406.11784"
       },
@@ -28,7 +29,7 @@
     {
       "title": "Is Table Retrieval a Solved Problem? Exploring Join-Aware Multi-Table Retrieval",
       "authors": "<b>Peter Baile Chen</b>, Yi Zhang, Dan Roth",
-      "conference": "ACL 2024",
+      "conference": "ACL 2024 (Main)",
       "links": {
         "Paper": "https://arxiv.org/abs/2404.09889"
       },
