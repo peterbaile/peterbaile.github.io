@@ -51,7 +51,7 @@ const AboutPage = () => (
 
             <h4>News</h4>
             <ul>
-              <li>(September 2024) Our paper on <a href="https://arxiv.org/abs/2406.11784">multi-document conditional reasoning (MDCR)</a> was accepted to EMNLP 2024 (findings).</li>
+              <li>(September 2024) Our paper on <a href="https://peterbaile.github.io/mdcr/">multi-document conditional reasoning (MDCR)</a> was accepted to EMNLP 2024 (findings).</li>
               <li>(August 2024) JAR was awarded the outstanding paper at <a href="https://knowledgeable-lm.github.io/">Towards Knowledgeable Language Models @ ACL 2024</a>.</li>
               <li>(May 2024) Our paper on <a href="https://arxiv.org/abs/2404.09889">join-aware multi-table retrieval (JAR)</a> was accepted to ACL 2024 (main).</li>
             </ul>
