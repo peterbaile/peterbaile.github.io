@@ -4,7 +4,8 @@
       "title": "BEAVER: An Enterprise Benchmark for Text-to-SQL",
       "authors": "<b>Peter Baile Chen</b>, Fabian Wenz, Yi Zhang, Moe Kayali, Nesime Tatbul, Michael Cafarella, Çağatay Demiralp, Michael Stonebraker",
       "links": {
-        "Paper": "https://arxiv.org/abs/2409.02038"
+        "Paper": "https://arxiv.org/abs/2409.02038",
+        "Project page": "https://peterbaile.github.io/beaver/"
       },
       "bibtex": "@article{chen2024beaver,\ntitle={BEAVER: An Enterprise Benchmark for Text-to-SQL},\nauthor={Chen, Peter Baile and Wenz, Fabian and Zhang, Yi and Kayali, Moe and Tatbul, Nesime and Cafarella, Michael and Demiralp, Çağatay and Stonebraker, Michael},\njournal={arXiv preprint arXiv:2409.02038},\nyear={2024}\n}"
     },
@@ -22,7 +23,8 @@
       "authors": "<b>Peter Baile Chen</b>, Yi Zhang, Chunwei Liu, Sejal Gupta, Yoon Kim, Michael Cafarella",
       "conference": "EMNLP 2024 (Findings)",
       "links": {
-        "Paper": "https://arxiv.org/abs/2406.11784"
+        "Paper": "https://arxiv.org/abs/2406.11784",
+        "Project page": "https://peterbaile.github.io/mdcr/"
       },
       "bibtex": "@article{chen2024mdcr,\ntitle={MDCR: A Dataset for Multi-Document Conditional Reasoning},\nauthor={Chen, Peter Baile and Zhang, Yi and Liu, Chunwei and Gupta, Sejal and Kim, Yoon and Cafarella, Michael},\njournal={arXiv preprint arXiv:2406.11784},\nyear={2024}\n}"
     },
