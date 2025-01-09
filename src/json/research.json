@@ -33,7 +33,8 @@
       "authors": "<b>Peter Baile Chen</b>, Yi Zhang, Dan Roth",
       "conference": "ACL 2024 (Main)",
       "links": {
-        "Paper": "https://arxiv.org/abs/2404.09889"
+        "Paper": "https://arxiv.org/abs/2404.09889",
+        "Project page": "https://peterbaile.github.io/jar/"
       },
       "bibtex": "@article{chen2024table,\ntitle={Is Table Retrieval a Solved Problem? Join-Aware Multi-Table Retrieval},\nauthor={Chen, Peter Baile and Zhang, Yi and Roth, Dan},\njournal={arXiv preprint arXiv:2404.09889},\nyear={2024}\n}"
     },
