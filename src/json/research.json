@@ -1,6 +1,14 @@
 {
   "paper": [
     {
+      "title": "Can we Retrieve Everything All at Once? ARM: An Alignment-Oriented LLM-based Retrieval Method",
+      "authors": "<b>Peter Baile Chen</b>, Yi Zhang, Michael Cafarella, Dan Roth",
+      "links": {
+        "Paper": "https://arxiv.org/abs/2501.18539"
+      },
+      "bibtex": "@article{chen2025can,\ntitle={Can we Retrieve Everything All at Once? ARM: An Alignment-Oriented LLM-based Retrieval Method},\nauthor={Chen, Peter Baile and Zhang, Yi and Cafarella, Michael and Roth, Dan},\njournal={arXiv preprint arXiv:2501.18539},\nyear={2025}\n}"
+    },
+    {
       "title": "BEAVER: An Enterprise Benchmark for Text-to-SQL",
       "authors": "<b>Peter Baile Chen</b>, Fabian Wenz, Yi Zhang, Moe Kayali, Nesime Tatbul, Michael Cafarella, Çağatay Demiralp, Michael Stonebraker",
       "links": {
