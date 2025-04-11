@@ -50,8 +50,9 @@ const AboutPage = () => (
             </p>
             
             <p>Data systems are typically efficient but lack flexibility, whereas large language models (LLMs) offer much greater adaptability, albeit with significantly higher computational demands.</p>
-            <p style={{ background: 'rgba(0, 118, 223, 0.05)', padding: '1rem' }}>
-              <b>Data systems for LLMs: Can we embed core efficiency and systematic processing principles of data management to enhance LLMs?</b>
+            
+            <div style={{ background: 'rgba(0, 118, 223, 0.05)', padding: '1rem', marginBottom: '1rem' }}>
+              <p><b>Data systems for LLMs: Can we embed core efficiency and systematic processing principles of data management to enhance LLMs?</b></p>
               <ul style={{ marginBottom: '0' }}>
                 <li>
                   Inspired by join operators in data systems, I developed alignment-oriented retrieval (<a href="https://arxiv.org/abs/2501.18539">ARM</a> and <a href="https://arxiv.org/abs/2404.09889">JAR</a>) to ensure retrieval considers both query relevance and compatibility among results.
@@ -60,16 +61,16 @@ const AboutPage = () => (
                   Inspired by data processing pipelines, I developed an <a href="https://arxiv.org/abs/2504.03598">offline information enrichment process</a> that deepens the semantic content of individual data items.
                 </li>
               </ul>
-            </p>
+            </div>
 
-            <p style={{ background: 'rgba(0, 118, 223, 0.05)', padding: '1rem', marginBottom: '2rem' }}>
-              <b>LLMs for data systems: Can the expressiveness of LLMs be harnessed to enhance data management?</b>
+            <div style={{ background: 'rgba(0, 118, 223, 0.05)', padding: '1rem', marginBottom: '2rem' }}>
+              <p><b>LLMs for data systems: Can the expressiveness of LLMs be harnessed to enhance data management?</b></p>
               <ul style={{ marginBottom: '0' }}>
                 <li>
                   I investigate using LLMs for <a href="https://arxiv.org/abs/2409.02038">enterprise text-to-SQL</a> to simplify database querying for business users.
                 </li>
               </ul>
-            </p>
+            </div>
 
             <h4>News</h4>
             <ul>
