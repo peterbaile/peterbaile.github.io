@@ -1,6 +1,15 @@
 {
   "paper": [
     {
+      "title": "EnrichIndex: Using LLMs to Enrich Retrieval Indices Offline",
+      "authors": "<b>Peter Baile Chen</b>, Tomer Wolfson, Michael Cafarella, Dan Roth",
+      "links": {
+        "Paper": "https://arxiv.org/abs/2504.03598",
+        "Project page": "https://peterbaile.github.io/enrichindex/"
+      },
+      "bibtex": "@article{chen2025enrichindex,\ntitle={EnrichIndex: Using LLMs to Enrich Retrieval Indices Offline},\nauthor={Chen, Peter Baile and Wolfson, Tomer and Cafarella, Michael and Roth, Dan},\njournal={arXiv preprint arXiv:2504.03598},\nyear={2025}\n}"
+    },
+    {
       "title": "Can we Retrieve Everything All at Once? ARM: An Alignment-Oriented LLM-based Retrieval Method",
       "authors": "<b>Peter Baile Chen</b>, Yi Zhang, Michael Cafarella, Dan Roth",
       "links": {
@@ -10,12 +19,12 @@
     },
     {
       "title": "BEAVER: An Enterprise Benchmark for Text-to-SQL",
-      "authors": "<b>Peter Baile Chen</b>, Fabian Wenz, Yi Zhang, Moe Kayali, Nesime Tatbul, Michael Cafarella, Çağatay Demiralp, Michael Stonebraker",
+      "authors": "<b>Peter Baile Chen</b>, Fabian Wenz, Yi Zhang, Devin Yang, Justin Choi, Nesime Tatbul, Michael Cafarella, Çağatay Demiralp, Michael Stonebraker",
       "links": {
         "Paper": "https://arxiv.org/abs/2409.02038",
         "Project page": "https://peterbaile.github.io/beaver/"
       },
-      "bibtex": "@article{chen2024beaver,\ntitle={BEAVER: An Enterprise Benchmark for Text-to-SQL},\nauthor={Chen, Peter Baile and Wenz, Fabian and Zhang, Yi and Kayali, Moe and Tatbul, Nesime and Cafarella, Michael and Demiralp, Çağatay and Stonebraker, Michael},\njournal={arXiv preprint arXiv:2409.02038},\nyear={2024}\n}"
+      "bibtex": "@article{chen2024beaver,\ntitle={BEAVER: an enterprise benchmark for text-to-sql},\nauthor={Chen, Peter Baile and Wenz, Fabian and Zhang, Yi and Yang, Devin and Choi, Justin and Tatbul, Nesime and Cafarella, Michael and Demiralp, Çağatay and Stonebraker, Michael},\njournal={arXiv preprint arXiv:2409.02038},\nyear={2024}\n}"
     },
     {
       "title": "Searching Data Lakes for Nested and Joined Data",
@@ -44,7 +53,7 @@
         "Paper": "https://arxiv.org/abs/2404.09889",
         "Project page": "https://peterbaile.github.io/jar/"
       },
-      "bibtex": "@article{chen2024table,\ntitle={Is Table Retrieval a Solved Problem? Join-Aware Multi-Table Retrieval},\nauthor={Chen, Peter Baile and Zhang, Yi and Roth, Dan},\njournal={arXiv preprint arXiv:2404.09889},\nyear={2024}\n}"
+      "bibtex": "@article{chen2024table,\ntitle={Is table retrieval a solved problem? exploring join-aware multi-table retrieval},\nauthor={Chen, Peter Baile and Zhang, Yi and Roth, Dan},\njournal={arXiv preprint arXiv:2404.09889},\nyear={2024}\n}"
     },
     {
       "title": "Optimization in Universal Health Coverage Design in South Africa Considering Both Health Outcomes and Health-Induced Poverty Outcomes",
