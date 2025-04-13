@@ -42,14 +42,26 @@ const AboutPage = () => (
           </div>
           <div>
             <p style={{ marginBottom: '2rem' }}>
-              Hi! I am Peter (陳百樂), a PhD student at <a href="https://www.csail.mit.edu/">MIT CSAIL</a>. My research lies at the intersection of data systems and natural language processing. I work with <a href="https://www.csail.mit.edu/person/michael-cafarella">Mike Cafarella</a>, <a href="https://www.csail.mit.edu/person/michael-stonebraker">Mike Stonebraker</a>, and <a href="https://www.cis.upenn.edu/~danroth/">Dan Roth</a>. I graduated from
+              Hi! I am Peter (陳百樂), a PhD student at <a href="https://www.csail.mit.edu/">MIT CSAIL</a>. My research lies at the intersection of data systems and natural language processing. I work with <a href="https://www.csail.mit.edu/person/michael-cafarella">Mike Cafarella</a>, <a href="https://www.csail.mit.edu/person/michael-stonebraker">Mike Stonebraker</a>, <a href="https://www.cis.upenn.edu/~danroth/">Dan Roth</a>, and <a href="https://www.mit.edu/~jda/">Jacob Andreas</a>. I graduated from
               the <a href="https://www.upenn.edu/">University of Pennsylvania</a> with a BSE degree. At Penn, I had the chance to work with <a href="https://www.cis.upenn.edu/~zives/">Zack Ives</a>, <a href="https://www.cis.upenn.edu/~sga001/">Sebastian Angel</a>, and <a href="https://vincen.tl/">Vincent Liu</a>. I am supported by <a href="https://scholars.croucher.org.hk/scholars/baile-chen">the Croucher scholarship</a>.
               {/* <br />
               <br />
               I am interested in improving the performance of LLMs in the context of information retrieval and complex reasoning. I also work on Machine Learning systems and data management. */}
             </p>
             
-            <p>Data systems are typically efficient but lack flexibility, whereas large language models (LLMs) offer much greater adaptability, albeit with significantly higher computational demands.</p>
+            <div style={{ marginBottom: '1rem' }}>
+              As a researcher working at the crossroads of data management and NLP, my goal is to contribute fresh insights by connecting data management methodologies with recent developments in artificial intelligence.
+              <ul style={{ marginBottom: 0 }}>
+                <li>Data management systems are designed to support querying over large-scale databases and are optimized for efficiency and precision, at the cost of versatility and expressiveness</li>
+                <li>
+                  LLMs have demonstrated capabilities to query diverse and complex data sources with far greater flexibility, at a high computational cost and often lack the built-in optimizations of traditional systems.
+                </li>
+              </ul>
+              This contrast presents an intriguing challenge:
+              <br/>
+              <br/>
+              <h5><b>Is it possible to blend the strengths of data management and LLM paradigms?</b></h5>
+            </div>
             
             <div style={{ background: 'rgba(0, 118, 223, 0.05)', padding: '1rem', marginBottom: '1rem' }}>
               <p><b>Data systems for LLMs: Can we embed core efficiency and systematic processing principles of data management to enhance LLMs?</b></p>
