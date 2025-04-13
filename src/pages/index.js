@@ -4,6 +4,7 @@ import s from 'styled-components'
 // import components
 import Nav from '../components/Nav'
 import SEO from '../components/seo'
+import VisibleText from '../components/VisibleText'
 
 const Wrapper = s.div`
   margin-top: 4em;
@@ -23,6 +24,14 @@ const Img = s.img`
   @media screen and (max-width: 768px) {
     width: 70%;
   }
+`
+
+const Quote = s.div`
+  border-left: 4px solid #ccc;
+  padding: 0.5rem 1rem;
+  margin: 1rem 0;
+  color: #555;
+  background-color: #f9f9f9;
 `
 
 const AboutPage = () => (
@@ -50,11 +59,13 @@ const AboutPage = () => (
             </p>
             
             <div style={{ marginBottom: '1rem' }}>
-              As a researcher working at the crossroads of data management and NLP, my goal is to contribute fresh insights by connecting data management methodologies with recent developments in artificial intelligence.
+              As a researcher working at the crossroads of <b>data management</b> and <b>NLP</b>, my goal is to contribute fresh insights by connecting data management methodologies with recent developments in artificial intelligence.
               <ul style={{ marginBottom: 0 }}>
-                <li>Data management systems are designed to support querying over large-scale databases and are optimized for efficiency and precision, at the cost of versatility and expressiveness</li>
                 <li>
-                  LLMs have demonstrated capabilities to query diverse and complex data sources with far greater flexibility, at a high computational cost and often lack the built-in optimizations of traditional systems.
+                  <b>Conventional data management systems</b> are designed to support querying over large-scale databases and are optimized for efficiency and precision by carefully managing all phases of the query lifecycle—from offline data storage and ingestion to online query execution. <i>These systems, however, often sacrifice versatility and expressiveness for performance.</i>
+                </li>
+                <li>
+                  On the other hand, <b>LLMs</b> have demonstrated capabilities to query diverse and complex data sources with far greater flexibility. <i>Yet, this comes with a significant computational cost. Moreover, they lack the systematic problem-solving strategies typical of traditional data systems, and as a result, exhibit surprising failures.</i>
                 </li>
               </ul>
               This contrast presents an intriguing challenge:
@@ -67,10 +78,33 @@ const AboutPage = () => (
               <p><b>Data systems for LLMs: Can we embed core efficiency and systematic processing principles of data management to enhance LLMs?</b></p>
               <ul style={{ marginBottom: '0' }}>
                 <li>
-                  Inspired by join operators in data systems, I developed alignment-oriented retrieval (<a href="https://arxiv.org/abs/2501.18539">ARM</a> and <a href="https://arxiv.org/abs/2404.09889">JAR</a>) to ensure retrieval considers both query relevance and compatibility among results.
+                  Embedding formal data management operators into LLMs (<a href="https://arxiv.org/abs/2501.18539">ARM</a> and <a href="https://arxiv.org/abs/2404.09889">JAR</a>)
+                  <VisibleText>
+                    <ul style={{ marginBottom: '0' }}>
+                      <li>
+                        Current LLM-based query methods often follow an ad-hoc, agent-like approach—treating models as humans that semantically explore relevant information iteratively, typically without convergence guarantees. While intuitive and easy to implement, this can be inefficient and lead to incomplete answers due to missing connections between data sources.
+                      </li>
+                      <Quote>
+                        For instance, to answer <i>How many students are in schools across all California counties?</i>, the model might retrieve data on schools and student counts, and separately a list of California counties. However, without an explicit mapping between school locations and counties, the model cannot integrate evidence from different sources.
+                      </Quote>
+                      <li>
+                        In contrast, a key principle in traditional databases is to employ well-defined operators like joins, which explicitly connect related data elements. In our research, we showed that equipping LLMs with a systematic module to assess and leverage joinability can significantly improve both their accuracy and efficiency.
+                      </li>
+                    </ul>
+                  </VisibleText>
                 </li>
                 <li>
-                  Inspired by data processing pipelines, I developed an <a href="https://arxiv.org/abs/2504.03598">offline information enrichment process</a> that deepens the semantic content of individual data items.
+                  Embedding offline data processing pipelines into LLMs (<a href="https://arxiv.org/abs/2504.03598">EnrichIndex</a>)
+                  <VisibleText>
+                    <ul style={{ marginBottom: '0' }}>
+                      <li>
+                        LLM-based methods often rely on complex, costly online computations to boost performance, overlooking the potential of offline improvements.
+                      </li>
+                      <li>
+                        Traditional data systems, however, utilize data processing pipelines to enhance data quality before it is queried. Inspired by this, we designed an offline information enrichment process that deepens the semantic content of individual data items. Our findings show this offline strategy can greatly improve the efficiency of downstream tasks while maintaining—or even improving—overall performance.
+                      </li>
+                    </ul>
+                  </VisibleText>
                 </li>
               </ul>
             </div>
@@ -79,7 +113,25 @@ const AboutPage = () => (
               <p><b>LLMs for data systems: Can the expressiveness of LLMs be harnessed to enhance data management?</b></p>
               <ul style={{ marginBottom: '0' }}>
                 <li>
-                  I investigate using LLMs for <a href="https://arxiv.org/abs/2409.02038">enterprise text-to-SQL</a> to simplify database querying for business users.
+                Leveraging LLMs to translate natural language questions into SQL in enterprise contexts (<a href="https://arxiv.org/abs/2409.02038">Beaver</a>)
+                <VisibleText>
+                  <ul style={{ marginBottom: '0' }}>
+                    <li>
+                      Writing SQL to query databases—especially for complex, enterprise-level queries—can be challenging, particularly for non-experts.
+                    </li>
+                    <li>
+                      In our recent work, we explored using LLMs to translate natural language questions into SQL in enterprise contexts. While LLMs demonstrate strong reasoning capabilities, they often fall short when domain-specific knowledge—such as internal terminology or business rules—is required. 
+                    </li>
+                    {/* <li> */}
+                    <Quote>
+                    For instance, if a user query involves the location of the Chemistry department but the database only lists building numbers, the model may fail without knowing which number maps to that department. This information, while not stored in tables, might exist in documents like building floor plans.
+                    </Quote>
+                    {/* </li> */}
+                    <li>
+                      We are currently exploring ways to integrate such domain-specific knowledge into LLMs—potentially from multi-modal sources—in a scalable, generalizable manner without resorting to expensive fine-tuning. We believe that enhancing LLMs in other key aspects can better unlock their expressiveness and significantly benefit existing data management systems.
+                    </li>
+                  </ul>
+                </VisibleText>
                 </li>
               </ul>
             </div>
