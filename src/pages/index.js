@@ -51,8 +51,8 @@ const AboutPage = () => (
           </div>
           <div>
             <p style={{ marginBottom: '2rem' }}>
-              Hi! I am Peter (陳百樂), a PhD student at <a href="https://www.csail.mit.edu/">MIT CSAIL</a>. My research lies at the intersection of data systems and natural language processing. I work with <a href="https://www.csail.mit.edu/person/michael-cafarella">Mike Cafarella</a>, <a href="https://www.csail.mit.edu/person/michael-stonebraker">Mike Stonebraker</a>, <a href="https://www.cis.upenn.edu/~danroth/">Dan Roth</a>, and <a href="https://www.mit.edu/~jda/">Jacob Andreas</a>. I graduated from
-              the <a href="https://www.upenn.edu/">University of Pennsylvania</a> with a BSE degree. At Penn, I had the chance to work with <a href="https://www.cis.upenn.edu/~zives/">Zack Ives</a>, <a href="https://www.cis.upenn.edu/~sga001/">Sebastian Angel</a>, and <a href="https://vincen.tl/">Vincent Liu</a>. I am supported by <a href="https://scholars.croucher.org.hk/scholars/baile-chen">the Croucher scholarship</a>.
+              Hi! I am Peter (陳百樂), a PhD student at <a href="https://www.csail.mit.edu/">MIT CSAIL</a>. My research lies at the intersection of data systems and natural language processing. I am fortunate to work with <a href="https://www.csail.mit.edu/person/michael-cafarella">Mike Cafarella</a>, <a href="https://www.csail.mit.edu/person/michael-stonebraker">Mike Stonebraker</a>, <a href="https://db.csail.mit.edu/madden/">Sam Madden</a>, <a href="https://www.cis.upenn.edu/~danroth/">Dan Roth</a>, and <a href="https://www.mit.edu/~jda/">Jacob Andreas</a>. I graduated from
+              the <a href="https://www.upenn.edu/">University of Pennsylvania</a> with a BSE degree. At Penn, I had the chance to work with <a href="https://www.cis.upenn.edu/~zives/">Zack Ives</a>, <a href="https://www.cis.upenn.edu/~sga001/">Sebastian Angel</a>, and <a href="https://vincen.tl/">Vincent Liu</a>. I am supported by <a href="https://scholars.croucher.org.hk/scholars/baile-chen">the Croucher scholarship</a> and Google.
               {/* <br />
               <br />
               I am interested in improving the performance of LLMs in the context of information retrieval and complex reasoning. I also work on Machine Learning systems and data management. */}
@@ -77,6 +77,22 @@ const AboutPage = () => (
             <div style={{ background: 'rgba(0, 118, 223, 0.05)', padding: '1rem', marginBottom: '1rem' }}>
               <p><b>Data systems for LLMs: Can we embed core efficiency and systematic processing principles of data management to enhance LLMs?</b></p>
               <ul style={{ marginBottom: '0' }}>
+                <li>
+                  Embedding view maintenance into LLMs (LAG)
+                  <VisibleText>
+                    <ul style={{ marginBottom: '0' }}>
+                      <li>
+                        Current LLMs and their agentic variants handle user tasks in isolation, without remembering prior interactions. This lack of memory hinders their ability to reuse past reasoning, resulting in repetitive thought processes and an inability to reflect on previous tasks.
+                      </li>
+                      <Quote>
+                        For instance, when solving <span style={{ textDecoration: 'underline' }}>task 1</span> composed of three sub-tasks: A &rarr; C &rarr; D, an LLM decomposes it and address each step sequentially. Later, when presented with <span style={{ textDecoration: 'underline' }}>task 2</span>, which consists of B &rarr; C &rarr; D, the LLM repeats the process from scratch, unaware that the reasoning for sub-tasks C and D has already been performed and could be reused.
+                      </Quote>
+                      <li>
+                        In contrast, databases use view maintenance, preserving the results of key queries to reuse them. Inspired by this, we introduce log-augmented generation, a method that allows LLMs to reuse prior computations and reasoning from past logs during inference, leading to substantial improvements in both accuracy and efficiency.
+                      </li>
+                    </ul>
+                  </VisibleText>
+                </li>
                 <li>
                   Embedding formal data management operators into LLMs (<a href="https://arxiv.org/abs/2501.18539">ARM</a> and <a href="https://arxiv.org/abs/2404.09889">JAR</a>)
                   <VisibleText>
@@ -122,11 +138,9 @@ const AboutPage = () => (
                     <li>
                       In our recent work, we explored using LLMs to translate natural language questions into SQL in enterprise contexts. While LLMs demonstrate strong reasoning capabilities, they often fall short when domain-specific knowledge—such as internal terminology or business rules—is required. 
                     </li>
-                    {/* <li> */}
                     <Quote>
                     For instance, if a user query involves the location of the Chemistry department but the database only lists building numbers, the model may fail without knowing which number maps to that department. This information, while not stored in tables, might exist in documents like building floor plans.
                     </Quote>
-                    {/* </li> */}
                     <li>
                       We are currently exploring ways to integrate such domain-specific knowledge into LLMs—potentially from multi-modal sources—in a scalable, generalizable manner without resorting to expensive fine-tuning. We believe that enhancing LLMs in other key aspects can better unlock their expressiveness and significantly benefit existing data management systems.
                     </li>
@@ -138,6 +152,8 @@ const AboutPage = () => (
 
             <h4>News</h4>
             <ul>
+              <li>(May 2025) Our paper on <a href="https://arxiv.org/abs/2501.18539">alignment-oriented retrieval (ARM)</a> was accepted to ACL 2025 (main).</li>
+              <li>(May 2025) I am honored to be a Schwarzman College of Computing Future Research Cohort fellow, funded by Google.</li>
               <li>(September 2024) Our paper on <a href="https://peterbaile.github.io/mdcr/">multi-document conditional reasoning (MDCR)</a> was accepted to EMNLP 2024 (findings).</li>
               <li>(August 2024) JAR was awarded the outstanding paper at <a href="https://knowledgeable-lm.github.io/">Towards Knowledgeable Language Models @ ACL 2024</a>.</li>
               <li>(May 2024) Our paper on <a href="https://arxiv.org/abs/2404.09889">join-aware multi-table retrieval (JAR)</a> was accepted to ACL 2024 (main).</li>

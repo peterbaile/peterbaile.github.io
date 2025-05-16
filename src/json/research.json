@@ -1,6 +1,14 @@
 {
   "paper": [
     {
+      "title": "Log-Augmented Generation: Scaling Test-Time Reasoning with Reusable Computation",
+      "authors": "<b>Peter Baile Chen</b>, Yi Zhang, Dan Roth, Samuel Madden, Jacob Andreas, Michael Cafarella",
+      "links": {
+        "Paper (coming soon)": "#",
+        "Project page (coming soon)": "#"
+      }
+    },
+    {
       "title": "EnrichIndex: Using LLMs to Enrich Retrieval Indices Offline",
       "authors": "<b>Peter Baile Chen</b>, Tomer Wolfson, Michael Cafarella, Dan Roth",
       "links": {
@@ -12,6 +20,7 @@
     {
       "title": "Can we Retrieve Everything All at Once? ARM: An Alignment-Oriented LLM-based Retrieval Method",
       "authors": "<b>Peter Baile Chen</b>, Yi Zhang, Michael Cafarella, Dan Roth",
+      "conference": "ACL 2025 (Main)",
       "links": {
         "Paper": "https://arxiv.org/abs/2501.18539"
       },
