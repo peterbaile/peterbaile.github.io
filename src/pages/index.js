@@ -76,9 +76,10 @@ const AboutPage = () => (
             
             <div style={{ background: 'rgba(0, 118, 223, 0.05)', padding: '1rem', marginBottom: '1rem' }}>
               <p><b>Data systems for LLMs: Can we embed core efficiency and systematic processing principles of data management to enhance LLMs?</b></p>
+              <p style={{ textDecoration: 'underline', marginBottom: '0' }}>Reasoning inefficiency</p>
               <ul style={{ marginBottom: '0' }}>
                 <li>
-                  Embedding view maintenance into LLMs (LAG)
+                  Embedding view maintenance into LLMs (<a href="https://peterbaile.github.io/lag/">LAG</a>)
                   <VisibleText>
                     <ul style={{ marginBottom: '0' }}>
                       <li>
@@ -93,8 +94,11 @@ const AboutPage = () => (
                     </ul>
                   </VisibleText>
                 </li>
+              </ul>
+              <p style={{ textDecoration: 'underline', marginTop: '1rem'}}>Retrieval inefficiency</p>
+              <ul style={{ marginBottom: '0' }}>
                 <li>
-                  Embedding formal data management operators into LLMs (<a href="https://arxiv.org/abs/2501.18539">ARM</a> and <a href="https://arxiv.org/abs/2404.09889">JAR</a>)
+                  Embedding formal data management operators into LLMs (<a href="https://arxiv.org/abs/2501.18539">ARM</a> and <a href="https://peterbaile.github.io/jar/">JAR</a>)
                   <VisibleText>
                     <ul style={{ marginBottom: '0' }}>
                       <li>
@@ -110,7 +114,7 @@ const AboutPage = () => (
                   </VisibleText>
                 </li>
                 <li>
-                  Embedding offline data processing pipelines into LLMs (<a href="https://arxiv.org/abs/2504.03598">EnrichIndex</a>)
+                  Embedding offline data processing pipelines into LLMs (<a href="https://peterbaile.github.io/enrichindex/">EnrichIndex</a>)
                   <VisibleText>
                     <ul style={{ marginBottom: '0' }}>
                       <li>
@@ -156,7 +160,7 @@ const AboutPage = () => (
               <li>(May 2025) I am honored to be a Schwarzman College of Computing Future Research Cohort fellow, funded by Google.</li>
               <li>(September 2024) Our paper on <a href="https://peterbaile.github.io/mdcr/">multi-document conditional reasoning (MDCR)</a> was accepted to EMNLP 2024 (findings).</li>
               <li>(August 2024) JAR was awarded the outstanding paper at <a href="https://knowledgeable-lm.github.io/">Towards Knowledgeable Language Models @ ACL 2024</a>.</li>
-              <li>(May 2024) Our paper on <a href="https://arxiv.org/abs/2404.09889">join-aware multi-table retrieval (JAR)</a> was accepted to ACL 2024 (main).</li>
+              <li>(May 2024) Our paper on <a href="https://peterbaile.github.io/jar/">join-aware multi-table retrieval (JAR)</a> was accepted to ACL 2024 (main).</li>
             </ul>
             {/* <p style={{ marginBottom: '2em' }}>
               Hi! I am Peter, a second-year PhD student at <a href="https://www.csail.mit.edu/">MIT CSAIL</a>, co-advised by <a href="https://www.csail.mit.edu/person/michael-cafarella">Mike Cafarella</a> and <a href="https://www.csail.mit.edu/person/michael-stonebraker">Mike Stonebraker</a>. I graduated Summa Cum Laude from&nbsp;
