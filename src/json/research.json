@@ -4,7 +4,7 @@
       "title": "Log-Augmented Generation: Scaling Test-Time Reasoning with Reusable Computation",
       "authors": "<b>Peter Baile Chen</b>, Yi Zhang, Dan Roth, Samuel Madden, Jacob Andreas, Michael Cafarella",
       "links": {
-        "Paper (coming soon)": "#",
+        "Paper": "https://arxiv.org/abs/2505.14398",
         "Project page": "https://peterbaile.github.io/lag/"
       }
     },
