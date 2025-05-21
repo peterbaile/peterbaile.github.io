@@ -98,7 +98,7 @@ const AboutPage = () => (
               <p style={{ textDecoration: 'underline', marginTop: '1rem'}}>Retrieval inefficiency</p>
               <ul style={{ marginBottom: '0' }}>
                 <li>
-                  Embedding formal data management operators into LLMs (<a href="https://arxiv.org/abs/2501.18539">ARM</a> and <a href="https://peterbaile.github.io/jar/">JAR</a>)
+                  Embedding formal data management operators into LLMs (<a href="https://peterbaile.github.io/arm/">ARM</a> and <a href="https://peterbaile.github.io/jar/">JAR</a>)
                   <VisibleText>
                     <ul style={{ marginBottom: '0' }}>
                       <li>
@@ -156,7 +156,7 @@ const AboutPage = () => (
 
             <h4>News</h4>
             <ul>
-              <li>(May 2025) Our paper on <a href="https://arxiv.org/abs/2501.18539">alignment-oriented retrieval (ARM)</a> was accepted to ACL 2025 (main).</li>
+              <li>(May 2025) Our paper on <a href="https://peterbaile.github.io/arm/">alignment-oriented retrieval (ARM)</a> was accepted to ACL 2025 (main).</li>
               <li>(May 2025) I am honored to be a Schwarzman College of Computing Future Research Cohort fellow, funded by Google.</li>
               <li>(September 2024) Our paper on <a href="https://peterbaile.github.io/mdcr/">multi-document conditional reasoning (MDCR)</a> was accepted to EMNLP 2024 (findings).</li>
               <li>(August 2024) JAR was awarded the outstanding paper at <a href="https://knowledgeable-lm.github.io/">Towards Knowledgeable Language Models @ ACL 2024</a>.</li>

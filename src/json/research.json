@@ -22,7 +22,8 @@
       "authors": "<b>Peter Baile Chen</b>, Yi Zhang, Michael Cafarella, Dan Roth",
       "conference": "ACL 2025 (Main)",
       "links": {
-        "Paper": "https://arxiv.org/abs/2501.18539"
+        "Paper": "https://arxiv.org/abs/2501.18539",
+        "Project page": "https://peterbaile.github.io/arm/"
       },
       "bibtex": "@article{chen2025can,\ntitle={Can we Retrieve Everything All at Once? ARM: An Alignment-Oriented LLM-based Retrieval Method},\nauthor={Chen, Peter Baile and Zhang, Yi and Cafarella, Michael and Roth, Dan},\njournal={arXiv preprint arXiv:2501.18539},\nyear={2025}\n}"
     },
