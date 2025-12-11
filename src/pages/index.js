@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import s from 'styled-components'
 
 // import components
@@ -34,7 +34,10 @@ const Quote = s.div`
   background-color: #f9f9f9;
 `
 
-const AboutPage = () => (
+const AboutPage = () => {
+  const [showop, setShowop] = useState(false)
+
+  return (
   <>
     <SEO />
     <div className="container-fluid h-100">
@@ -52,13 +55,13 @@ const AboutPage = () => (
           <div>
             <p style={{ marginBottom: '2rem' }}>
               Hi! I am Peter (陳百樂), a PhD student at <a href="https://www.csail.mit.edu/">MIT CSAIL</a>. My research lies at the intersection of data systems and natural language processing. I am fortunate to work with <a href="https://www.csail.mit.edu/person/michael-cafarella">Mike Cafarella</a>, <a href="https://www.csail.mit.edu/person/michael-stonebraker">Mike Stonebraker</a>, <a href="https://db.csail.mit.edu/madden/">Sam Madden</a>, <a href="https://www.cis.upenn.edu/~danroth/">Dan Roth</a>, and <a href="https://www.mit.edu/~jda/">Jacob Andreas</a>. I graduated from
-              the <a href="https://www.upenn.edu/">University of Pennsylvania</a> with a BSE degree. At Penn, I had the chance to work with <a href="https://www.cis.upenn.edu/~zives/">Zack Ives</a>, <a href="https://www.cis.upenn.edu/~sga001/">Sebastian Angel</a>, and <a href="https://vincen.tl/">Vincent Liu</a>. I am supported by <a href="https://scholars.croucher.org.hk/scholars/baile-chen">the Croucher scholarship</a> and Google PhD Fellowship in collaboration with MIT.
+              the <a href="https://www.upenn.edu/">University of Pennsylvania</a> with a BSE degree. At Penn, I had the chance to work with <a href="https://www.cis.upenn.edu/~zives/">Zack Ives</a>, <a href="https://www.cis.upenn.edu/~sga001/">Sebastian Angel</a>, and <a href="https://vincen.tl/">Vincent Liu</a>. I am currently supported by Google PhD Fellowship in collaboration with MIT. I was previously supported by <a href="https://scholars.croucher.org.hk/scholars/baile-chen">the Croucher scholarship</a>.
               {/* <br />
               <br />
               I am interested in improving the performance of LLMs in the context of information retrieval and complex reasoning. I also work on Machine Learning systems and data management. */}
             </p>
             
-            <div style={{ marginBottom: '1rem' }}>
+            {/* <div style={{ marginBottom: '1rem' }}>
               As a researcher working at the crossroads of <b>data management</b> and <b>NLP</b>, my goal is to contribute fresh insights by connecting data management methodologies with recent developments in artificial intelligence.
               <ul style={{ marginBottom: 0 }}>
                 <li>
@@ -72,9 +75,101 @@ const AboutPage = () => (
               <br/>
               <br/>
               <h5><b>Is it possible to blend the strengths of data management and LLM paradigms?</b></h5>
+            </div> */}
+
+            <div style={{ marginBottom: '1rem' }}>
+            Advancing AI requires far more than simply building smarter language models. On their own, models face clear limits: they do not naturally optimize solution strategies under real-world constraints like latency or cost, they struggle to reuse knowledge across tasks, and they often execute plans inefficiently, especially when coordinating across multiple models and external tools. My research focuses on designing system and software infrastructure that surrounds and augments language models, enabling AI to optimize for practical, multi-objective goals such as accuracy, efficiency, and budget.
+              {/* <ul style={{ marginBottom: 0 }}>
+                <li>
+                  <b>Conventional data management systems</b> are designed to support querying over large-scale databases and are optimized for efficiency and precision by carefully managing all phases of the query lifecycle—from offline data storage and ingestion to online query execution. <i>These systems, however, often sacrifice versatility and expressiveness for performance.</i>
+                </li>
+                <li>
+                  On the other hand, <b>LLMs</b> have demonstrated capabilities to query diverse and complex data sources with far greater flexibility. <i>Yet, this comes with a significant computational cost. Moreover, they lack the systematic problem-solving strategies typical of traditional data systems, and as a result, exhibit surprising failures.</i>
+                </li>
+              </ul>
+              This contrast presents an intriguing challenge:
+              <br/>
+              <br/>
+              <h5><b>Is it possible to blend the strengths of data management and LLM paradigms?</b></h5> */}
             </div>
             
             <div style={{ background: 'rgba(0, 118, 223, 0.05)', padding: '1rem', marginBottom: '1rem' }}>
+              <p className='text-center'>
+                <b>Optimizable AI System (OAISYS): A unified system for optimizing AI performance</b>
+
+                {
+                  showop ?
+                  <>
+                    <button type="button" className="btn shadow-none" style={{ outline: 'None' }} onClick={() => setShowop(!showop)}>⬆️ (hide details)</button>
+                  </>
+                   :
+                   <>
+                   <button type="button" className="btn shadow-none" style={{ outline: 'None' }} onClick={() => setShowop(!showop)}>⬇️ (show details)</button>
+                   </>
+                   
+                }
+              </p>
+
+              <div className='row'>
+                <div className='col-md-4'>
+                  <div className='p-2 h-100' style={{ border: '2px solid #D3D3D3' }}>
+                    <p className='text-center'>
+                      <b>Offline knowledge manager </b> enables <b>online planner</b> to draw on experiences and knowledge from previously completed tasks or from offline-built corpus enhancements.
+                    </p>
+                    <p className='text-center'>
+                      
+                    </p>
+                    {
+                      showop && (
+                        <ul className='text-left' style={{ marginBottom: '0' }}>
+                          <li>Experience reuse: <a href="https://peterbaile.github.io/lag/">Log-augmented generation</a></li>
+                          <li>Corpus enrichment: <a href="https://peterbaile.github.io/enrichindex/">LLM-enriched retrieval indices</a></li>
+                        </ul>
+                      )
+                    }
+                  </div>
+                </div>
+
+                <div className="col-md-1 text-center align-self-center" style={{fontSize: '24px'}}>
+                    &rarr;
+                </div>
+
+                <div className='col-md-3'>
+                  <div className='p-2 h-100' style={{ border: '2px solid #D3D3D3' }}>
+                    <p className='text-center'><b>Online planner </b> helps models derive optimal solution plans for complex tasks, guided by real-life criteria such as accuracy and efficiency.</p>
+                    {
+                      showop && (
+                        <ul className='text-left' style={{ marginBottom: '0' }}>
+                          <li><a href="https://openreview.net/pdf?id=QxioUQeZO9">Optimizable LLM planning</a></li>
+                        </ul>
+                      )
+                    }
+                  </div>
+                </div>
+
+                <div className="col-md-1 text-center align-self-center" style={{fontSize: '24px'}}>
+                    &larr;
+                </div>
+
+                <div className='col-md-3'>
+                  <div className='p-2 h-100' style={{ border: '2px solid #D3D3D3' }}>
+                    <p className='text-center'>
+                      <b>Executor </b> enables <b>online planner</b> to execute optimal solution plans based on available LLM tools.
+                    </p>
+                    {
+                      showop && (
+                        <ul className='text-left' style={{ marginBottom: '0' }}>
+                          <li>Continual model routing: <a href="https://arxiv.org/abs/2512.09386">CONCUR</a></li>
+                          <li>Join-aware retriever tools: <a href="https://peterbaile.github.io/arm/">ARM</a>, <a href="https://peterbaile.github.io/jar/">JAR</a>, <a href="https://arxiv.org/abs/2511.00805">REaR</a></li>
+                        </ul>
+                      )
+                    }
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* <div style={{ background: 'rgba(0, 118, 223, 0.05)', padding: '1rem', marginBottom: '1rem' }}>
               <p><b>Data systems for LLMs: Can we embed core efficiency and systematic processing principles of data management to enhance LLMs?</b></p>
               <p style={{ textDecoration: 'underline', marginBottom: '0' }}>Reasoning inefficiency</p>
               <ul style={{ marginBottom: '0' }}>
@@ -127,9 +222,13 @@ const AboutPage = () => (
                   </VisibleText>
                 </li>
               </ul>
+            </div> */}
+
+            <div style={{ marginBottom: '1rem' }}>
+              My research also involves building datasets and benchmarks that evaluate AI performance, including <a href="https://peterbaile.github.io/beaver/">Beaver</a> for enterprise Text-to-SQL and <a href="https://peterbaile.github.io/mdcr/">MDCR</a> for multi-document conditional reasoning.
             </div>
 
-            <div style={{ background: 'rgba(0, 118, 223, 0.05)', padding: '1rem', marginBottom: '2rem' }}>
+            {/* <div style={{ background: 'rgba(0, 118, 223, 0.05)', padding: '1rem', marginBottom: '2rem' }}>
               <p><b>LLMs for data systems: Can the expressiveness of LLMs be harnessed to enhance data management?</b></p>
               <ul style={{ marginBottom: '0' }}>
                 <li>
@@ -152,10 +251,11 @@ const AboutPage = () => (
                 </VisibleText>
                 </li>
               </ul>
-            </div>
+            </div> */}
 
             <h4>News</h4>
             <ul>
+              <li>(July 2025) Our paper on <a href="https://peterbaile.github.io/enrichindex/">LLM-enriched retrieval indices (EnrichIndex)</a> was accepted to COLM 2025.</li>
               <li>(May 2025) Our paper on <a href="https://peterbaile.github.io/arm/">alignment-oriented retrieval (ARM)</a> was accepted to ACL 2025 (main).</li>
               <li>(May 2025) I am honored to be a Schwarzman College of Computing Future Research Cohort fellow, funded by Google.</li>
               <li>(September 2024) Our paper on <a href="https://peterbaile.github.io/mdcr/">multi-document conditional reasoning (MDCR)</a> was accepted to EMNLP 2024 (findings).</li>
@@ -195,6 +295,6 @@ const AboutPage = () => (
       </div>
     </div>
   </>
-)
+)}
 
 export default AboutPage

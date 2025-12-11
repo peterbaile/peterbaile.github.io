@@ -1,16 +1,32 @@
 {
   "paper": [
     {
+        "title": "Optimizable LLM Planning: A Branch-and-Bound Framework for Complex Tasks",
+        "authors": "<b>Peter Baile Chen</b>, Yi Zhang, Weiyue Li, Michael Cafarella, Sam Madden, Jacob Andreas, Dan Roth",
+        "links": {
+          "Paper": "https://openreview.net/pdf?id=QxioUQeZO9"
+        }
+      },
+    {
+      "title": "CONCUR: A Framework for Continual Constrained and Unconstrained Routing",
+      "authors": "<b>Peter Baile Chen</b>, Weiyue Li, Dan Roth, Michael Cafarella, Sam Madden, Jacob Andreas",
+      "links": {
+        "Paper": "https://arxiv.org/abs/2512.09386"
+      }
+    },
+    {
       "title": "Log-Augmented Generation: Scaling Test-Time Reasoning with Reusable Computation",
       "authors": "<b>Peter Baile Chen</b>, Yi Zhang, Dan Roth, Samuel Madden, Jacob Andreas, Michael Cafarella",
       "links": {
         "Paper": "https://arxiv.org/abs/2505.14398",
         "Project page": "https://peterbaile.github.io/lag/"
-      }
+      },
+      "bibtex": "@article{chen2025log,\ntitle={Log-Augmented Generation: Scaling Test-Time Reasoning with Reusable Computation},\nauthor={Chen, Peter Baile and Zhang, Yi and Roth, Dan and Madden, Samuel and Andreas, Jacob and Cafarella, Michael},\njournal={arXiv preprint arXiv:2505.14398},\nyear={2025}\n}"
     },
     {
       "title": "EnrichIndex: Using LLMs to Enrich Retrieval Indices Offline",
       "authors": "<b>Peter Baile Chen</b>, Tomer Wolfson, Michael Cafarella, Dan Roth",
+      "conference": "COLM 2025",
       "links": {
         "Paper": "https://arxiv.org/abs/2504.03598",
         "Project page": "https://peterbaile.github.io/enrichindex/"
@@ -118,7 +134,9 @@
         "Initiated the use of sketching techniques to speed up the process of creating and matching data profiles",
         "Enhanced scalability through pre-computations, incremental techniques, and in-database implementations"
       ],
-      "links": { "Code": "https://github.com/juneau-project/juneau" }
+      "links": {
+        "Code": "https://github.com/juneau-project/juneau"
+      }
     }
   ]
 }
