@@ -61,7 +61,7 @@ const Research = () => (
         <Nav />
 
         <Wrapper className="col-md-9 body-content">
-          <p style={{ fontSize: '2rem', fontWeight: '800', marginBottom: '0.5rem' }}>Publications</p>
+          <p style={{ fontSize: '2rem', fontWeight: '800', marginBottom: '0.5rem' }}>Selected publications</p>
           <ul>
             {paper.map(e => (
               <Paper {...e} />

@@ -255,6 +255,7 @@ const AboutPage = () => {
 
             <h4>News</h4>
             <ul>
+              <li>(Jan 2026) Our papers on <a href="https://peterbaile.github.io/lag/">log-augmented generation (LAG)</a> and <a href="https://arxiv.org/abs/2512.09386">continual constrained and unconstrained routing (CONCUR)</a> were accepted to ICLR 2026.</li>
               <li>(July 2025) Our paper on <a href="https://peterbaile.github.io/enrichindex/">LLM-enriched retrieval indices (EnrichIndex)</a> was accepted to COLM 2025.</li>
               <li>(May 2025) Our paper on <a href="https://peterbaile.github.io/arm/">alignment-oriented retrieval (ARM)</a> was accepted to ACL 2025 (main).</li>
               <li>(May 2025) I am honored to be a Schwarzman College of Computing Future Research Cohort fellow, funded by Google.</li>

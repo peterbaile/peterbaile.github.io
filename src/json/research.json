@@ -10,6 +10,7 @@
     {
       "title": "CONCUR: A Framework for Continual Constrained and Unconstrained Routing",
       "authors": "<b>Peter Baile Chen</b>, Weiyue Li, Dan Roth, Michael Cafarella, Sam Madden, Jacob Andreas",
+      "conference": "ICLR 2026",
       "links": {
         "Paper": "https://arxiv.org/abs/2512.09386"
       }
@@ -17,6 +18,7 @@
     {
       "title": "Log-Augmented Generation: Scaling Test-Time Reasoning with Reusable Computation",
       "authors": "<b>Peter Baile Chen</b>, Yi Zhang, Dan Roth, Samuel Madden, Jacob Andreas, Michael Cafarella",
+      "conference": "ICLR 2026",
       "links": {
         "Paper": "https://arxiv.org/abs/2505.14398",
         "Project page": "https://peterbaile.github.io/lag/"
