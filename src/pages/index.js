@@ -54,7 +54,7 @@ const AboutPage = () => {
           </div>
           <div>
             <p style={{ marginBottom: '2rem' }}>
-              Hi! I am Peter (陳百樂), a PhD student at <a href="https://www.csail.mit.edu/">MIT CSAIL</a>. My research lies at the intersection of data systems and natural language processing. I am fortunate to work with <a href="https://www.csail.mit.edu/person/michael-cafarella">Mike Cafarella</a>, <a href="https://www.csail.mit.edu/person/michael-stonebraker">Mike Stonebraker</a>, <a href="https://db.csail.mit.edu/madden/">Sam Madden</a>, <a href="https://www.cis.upenn.edu/~danroth/">Dan Roth</a>, and <a href="https://www.mit.edu/~jda/">Jacob Andreas</a>. I graduated from
+              Hi! I am Peter (陳百樂), a PhD student at <a href="https://www.csail.mit.edu/">MIT CSAIL</a> and a student researcher at <a href="https://allenai.org/">AI2</a>. I will intern at MSR Redmond this summer. My research lies at the intersection of data systems and natural language processing. I am fortunate to work with <a href="https://www.csail.mit.edu/person/michael-cafarella">Mike Cafarella</a>, <a href="https://www.csail.mit.edu/person/michael-stonebraker">Mike Stonebraker</a>, <a href="https://db.csail.mit.edu/madden/">Sam Madden</a>, <a href="https://www.cis.upenn.edu/~danroth/">Dan Roth</a>, and <a href="https://www.mit.edu/~jda/">Jacob Andreas</a>. I graduated from
               the <a href="https://www.upenn.edu/">University of Pennsylvania</a> with a BSE degree. At Penn, I had the chance to work with <a href="https://www.cis.upenn.edu/~zives/">Zack Ives</a>, <a href="https://www.cis.upenn.edu/~sga001/">Sebastian Angel</a>, and <a href="https://vincen.tl/">Vincent Liu</a>. I am currently supported by Google PhD Fellowship in collaboration with MIT. I was previously supported by <a href="https://scholars.croucher.org.hk/scholars/baile-chen">the Croucher scholarship</a>.
               {/* <br />
               <br />
@@ -159,7 +159,7 @@ const AboutPage = () => {
                     {
                       showop && (
                         <ul className='text-left' style={{ marginBottom: '0' }}>
-                          <li>Continual model routing: <a href="https://arxiv.org/abs/2512.09386">CONCUR</a></li>
+                          <li>Continual model routing: <a href="https://peterbaile.github.io/concur/">CONCUR</a></li>
                           <li>Join-aware retriever tools: <a href="https://peterbaile.github.io/arm/">ARM</a>, <a href="https://peterbaile.github.io/jar/">JAR</a>, <a href="https://arxiv.org/abs/2511.00805">REaR</a></li>
                         </ul>
                       )
@@ -255,7 +255,7 @@ const AboutPage = () => {
 
             <h4>News</h4>
             <ul>
-              <li>(Jan 2026) Our papers on <a href="https://peterbaile.github.io/lag/">log-augmented generation (LAG)</a> and <a href="https://arxiv.org/abs/2512.09386">continual constrained and unconstrained routing (CONCUR)</a> were accepted to ICLR 2026.</li>
+              <li>(Jan 2026) Our papers on <a href="https://peterbaile.github.io/lag/">log-augmented generation (LAG)</a> and <a href="https://peterbaile.github.io/concur/">continual constrained and unconstrained routing (CONCUR)</a> were accepted to ICLR 2026.</li>
               <li>(July 2025) Our paper on <a href="https://peterbaile.github.io/enrichindex/">LLM-enriched retrieval indices (EnrichIndex)</a> was accepted to COLM 2025.</li>
               <li>(May 2025) Our paper on <a href="https://peterbaile.github.io/arm/">alignment-oriented retrieval (ARM)</a> was accepted to ACL 2025 (main).</li>
               <li>(May 2025) I am honored to be a Schwarzman College of Computing Future Research Cohort fellow, funded by Google.</li>
