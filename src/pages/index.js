@@ -225,7 +225,7 @@ const AboutPage = () => {
             </div> */}
 
             <div style={{ marginBottom: '1rem' }}>
-              My research also involves building datasets and benchmarks that evaluate AI performance, including <a href="https://peterbaile.github.io/beaver/">Beaver</a> for enterprise Text-to-SQL and <a href="https://peterbaile.github.io/mdcr/">MDCR</a> for multi-document conditional reasoning.
+              My research also involves building datasets and benchmarks that evaluate AI performance, including <a href="https://beaverbench.github.io">BEAVER</a> for enterprise Text-to-SQL and <a href="https://peterbaile.github.io/mdcr/">MDCR</a> for multi-document conditional reasoning.
             </div>
 
             {/* <div style={{ background: 'rgba(0, 118, 223, 0.05)', padding: '1rem', marginBottom: '2rem' }}>

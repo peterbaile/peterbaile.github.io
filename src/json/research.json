@@ -8,6 +8,15 @@
       }
     },
     {
+      "title": "BEAVER: An Enterprise Benchmark for Text-to-SQL",
+      "authors": "<b>Peter Baile Chen</b>, Devin Yang, Weiyue Li, Fabian Wenz, Yi Zhang, Nesime Tatbul, Michael Cafarella, Çağatay Demiralp, Michael Stonebraker",
+      "links": {
+        "Paper": "https://arxiv.org/abs/2409.02038",
+        "Project page": "https://beaverbench.github.io/"
+      },
+      "bibtex": "@article{chen2024beaver,\ntitle={BEAVER: an enterprise benchmark for text-to-sql},\nauthor={Chen, Peter Baile and Yang, Devin and Li, Weiyue and Wenz, Fabian and Zhang, Yi and Tatbul, Nesime and Cafarella, Michael and Demiralp, Çağatay and Stonebraker, Michael},\njournal={arXiv preprint arXiv:2409.02038},\nyear={2024}\n}"
+    },
+    {
       "title": "CONCUR: A Framework for Continual Constrained and Unconstrained Routing",
       "authors": "<b>Peter Baile Chen</b>, Weiyue Li, Dan Roth, Michael Cafarella, Sam Madden, Jacob Andreas",
       "conference": "ICLR 2026",
@@ -46,15 +55,6 @@
         "Project page": "https://peterbaile.github.io/arm/"
       },
       "bibtex": "@article{chen2025can,\ntitle={Can we Retrieve Everything All at Once? ARM: An Alignment-Oriented LLM-based Retrieval Method},\nauthor={Chen, Peter Baile and Zhang, Yi and Cafarella, Michael and Roth, Dan},\njournal={arXiv preprint arXiv:2501.18539},\nyear={2025}\n}"
-    },
-    {
-      "title": "BEAVER: An Enterprise Benchmark for Text-to-SQL",
-      "authors": "<b>Peter Baile Chen</b>, Fabian Wenz, Yi Zhang, Devin Yang, Justin Choi, Nesime Tatbul, Michael Cafarella, Çağatay Demiralp, Michael Stonebraker",
-      "links": {
-        "Paper": "https://arxiv.org/abs/2409.02038",
-        "Project page": "https://peterbaile.github.io/beaver/"
-      },
-      "bibtex": "@article{chen2024beaver,\ntitle={BEAVER: an enterprise benchmark for text-to-sql},\nauthor={Chen, Peter Baile and Wenz, Fabian and Zhang, Yi and Yang, Devin and Choi, Justin and Tatbul, Nesime and Cafarella, Michael and Demiralp, Çağatay and Stonebraker, Michael},\njournal={arXiv preprint arXiv:2409.02038},\nyear={2024}\n}"
     },
     {
       "title": "Searching Data Lakes for Nested and Joined Data",
