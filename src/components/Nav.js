@@ -91,7 +91,7 @@ const MyNavBar = () => (
           <br />
           &copy; 22-26 Peter Baile Chen
           <br />
-          Last update: 05/20/2026
+          Last update: 10/07/2026
         </div>
       </div>
     </LaptopDiv>

@@ -54,8 +54,8 @@ const AboutPage = () => {
           </div>
           <div>
             <p style={{ marginBottom: '2rem' }}>
-              Hi! I am Peter (陳百樂), a PhD student at <a href="https://www.csail.mit.edu/">MIT CSAIL</a> and a student researcher at <a href="https://allenai.org/">AI2</a>. I will intern at MSR Redmond this summer. My research lies at the intersection of data systems and natural language processing. I am fortunate to work with <a href="https://www.csail.mit.edu/person/michael-cafarella">Mike Cafarella</a>, <a href="https://www.csail.mit.edu/person/michael-stonebraker">Mike Stonebraker</a>, <a href="https://db.csail.mit.edu/madden/">Sam Madden</a>, <a href="https://www.cis.upenn.edu/~danroth/">Dan Roth</a>, and <a href="https://www.mit.edu/~jda/">Jacob Andreas</a>. I graduated from
-              the <a href="https://www.upenn.edu/">University of Pennsylvania</a> with a BSE degree. At Penn, I had the chance to work with <a href="https://www.cis.upenn.edu/~zives/">Zack Ives</a>, <a href="https://www.cis.upenn.edu/~sga001/">Sebastian Angel</a>, and <a href="https://vincen.tl/">Vincent Liu</a>. I am currently supported by Google PhD Fellowship in collaboration with MIT. I was previously supported by <a href="https://scholars.croucher.org.hk/scholars/baile-chen">the Croucher scholarship</a>.
+              Hi! I am Peter (陳百樂), a PhD student at <a href="https://www.csail.mit.edu/">MIT CSAIL</a>. I previously interned at <a href="https://www.microsoft.com/en-us/research/">Microsoft Research (Redmond)</a>, <a href="https://allenai.org/">AI2</a>, and <a href="https://research.cisco.com/">Cisco Research</a>. My research lies at the intersection of data systems and natural language processing. I am fortunate to work with <a href="https://www.csail.mit.edu/person/michael-cafarella">Mike Cafarella</a>, <a href="https://www.csail.mit.edu/person/michael-stonebraker">Mike Stonebraker</a>, <a href="https://db.csail.mit.edu/madden/">Sam Madden</a>, <a href="https://www.cis.upenn.edu/~danroth/">Dan Roth</a>, and <a href="https://www.mit.edu/~jda/">Jacob Andreas</a>. I graduated from
+              the <a href="https://www.upenn.edu/">University of Pennsylvania</a> with a BSE degree. At Penn, I had the chance to work with <a href="https://www.cis.upenn.edu/~zives/">Zack Ives</a>, <a href="https://www.cis.upenn.edu/~sga001/">Sebastian Angel</a>, and <a href="https://vincen.tl/">Vincent Liu</a>. I was previously supported by Google PhD Fellowship in collaboration with MIT and <a href="https://scholars.croucher.org.hk/scholars/baile-chen">the Croucher scholarship</a>.
               {/* <br />
               <br />
               I am interested in improving the performance of LLMs in the context of information retrieval and complex reasoning. I also work on Machine Learning systems and data management. */}
@@ -253,7 +253,7 @@ const AboutPage = () => {
               </ul>
             </div> */}
 
-            <h4>News</h4>
+            {/* <h4>News</h4>
             <ul>
               <li>(Jan 2026) Our papers on <a href="https://peterbaile.github.io/lag/">log-augmented generation (LAG)</a> and <a href="https://peterbaile.github.io/concur/">continual constrained and unconstrained routing (CONCUR)</a> were accepted to ICLR 2026.</li>
               <li>(July 2025) Our paper on <a href="https://peterbaile.github.io/enrichindex/">LLM-enriched retrieval indices (EnrichIndex)</a> was accepted to COLM 2025.</li>
@@ -262,7 +262,7 @@ const AboutPage = () => {
               <li>(September 2024) Our paper on <a href="https://peterbaile.github.io/mdcr/">multi-document conditional reasoning (MDCR)</a> was accepted to EMNLP 2024 (findings).</li>
               <li>(August 2024) JAR was awarded the outstanding paper at <a href="https://knowledgeable-lm.github.io/">Towards Knowledgeable Language Models @ ACL 2024</a>.</li>
               <li>(May 2024) Our paper on <a href="https://peterbaile.github.io/jar/">join-aware multi-table retrieval (JAR)</a> was accepted to ACL 2024 (main).</li>
-            </ul>
+            </ul> */}
             {/* <p style={{ marginBottom: '2em' }}>
               Hi! I am Peter, a second-year PhD student at <a href="https://www.csail.mit.edu/">MIT CSAIL</a>, co-advised by <a href="https://www.csail.mit.edu/person/michael-cafarella">Mike Cafarella</a> and <a href="https://www.csail.mit.edu/person/michael-stonebraker">Mike Stonebraker</a>. I graduated Summa Cum Laude from&nbsp;
               the <a href="https://www.upenn.edu/">University of Pennsylvania</a> with a BSE degree in&nbsp;

@@ -1,6 +1,13 @@
 {
   "paper": [
     {
+      "title": "ExperienceIndex: Artifact-Grounded Memory",
+      "authors": "<b>Peter Baile Chen</b>, Geoffrey X. Yu, Xinming Liu, Samuel Madden, Dan Roth, Jacob Andreas, Doug Downey, Michael Cafarella",
+      "links": {
+        "Paper": "https://arxiv.org/abs/2610.10091"
+      }
+    },
+    {
       "title": "Optimizable LLM Planning: A Branch-and-Bound Framework for Complex Tasks",
       "authors": "<b>Peter Baile Chen</b>, Yi Zhang, Weiyue Li, Michael Cafarella, Sam Madden, Jacob Andreas, Dan Roth",
       "links": {
